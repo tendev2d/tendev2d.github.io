@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TenCore Online v1.0 - Create Server FREE</title>
+  <meta name="description" content="v1.0: auto provisioning, basic auto save, 5 player cap, chat, movement sync." />
+  <link rel="icon" href="https://tendev2d.github.io/assets/navigation/images/icon.png" type="image/x-icon"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md sticky-top py-3 app-navbar">
+      <div class="container">
+  <a class="brand" href="https://tendev2d.itch.io" target="_blank" rel="noopener" aria-label="Home">RPG Maker MV - Ten's Plugins</a>
+        <div class="ms-auto d-flex align-items-center gap-2" id="navAuthArea">
+          <span id="navEmail" class="text-light small fw-semibold" style="letter-spacing:.5px;" hidden></span>
+          <button id="loginBtn" class="btn btn-outline-light btn-sm px-3" data-bs-toggle="modal" data-bs-target="#authModal">Login</button>
+          <button id="changePassBtn" class="btn btn-outline-light btn-sm px-3" data-bs-toggle="modal" data-bs-target="#changePassModal" hidden>Change Password</button>
+          <button id="logoutBtn" class="btn btn-outline-light btn-sm px-3" hidden>Logout</button>
+        </div>
+      </div>
+    </nav>
+    <main class="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-7 text-center">
+            <div class="d-flex align-items-center justify-content-center mb-2" style="gap:10px;">
+              <h1 class="display-5 mb-0" id="heroTitle">Server control</h1>
+              <span class="badge rounded-pill px-2 py-1 version-pill align-middle" style="font-weight:600; letter-spacing:.5px; position:relative; top:-2px;">v1.0</span>
+             
+            </div>
+            <p class="lead sub mb-4" id="heroSubtitle">Start a temporary server</p>
+            <div id="serverCard" class="card card-lite mx-auto mb-3" style="max-width: 520px" hidden>
+              <div class="card-body">
+                <div class="row g-2 align-items-center mb-1">
+                  <div class="col-6 k text-start">Account</div>
+                  <div class="col-6 text-end" id="accountEmail">—</div>
+                </div>
+                <div class="row g-2 align-items-center">
+                  <div class="col-6 k text-start">IP</div>
+                  <div class="col-6 text-end" id="ip">—</div>
+                  <div class="col-6 k text-start">Port</div>
+                  <div class="col-6 text-end" id="port">—</div>
+                  <div class="col-6 k text-start">Max users</div>
+                  <div class="col-6 text-end" id="max">—</div>
+                  <div class="col-6 k text-start">Time left</div>
+                  <div class="col-6 text-end fw-semibold" id="ttl">—</div>
+                </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <button id="renewBtn" class="btn btn-sm btn-outline-light px-3" hidden>Renew TTL</button>
+                  <small id="ttlWarn" class="text-warning-emphasis" style="display:none;">TTL low. Consider renew.</small>
+                </div>
+              </div>
+            </div>
+            <div id="ctaArea" class="w-100" style="max-width:520px; margin:0 auto;">
+              <div id="ctaRow1" class="d-flex justify-content-center align-items-center gap-3 mb-2">
+                <button id="configBtn" class="btn btn-outline-light px-4" data-bs-toggle="modal" data-bs-target="#configModal" hidden>Config Server</button>
+                <button id="serverToggleBtn" class="btn btn-primary px-4" hidden>Start Server</button>
+              </div>
+              <div id="ctaRow2" class="d-flex justify-content-center flex-wrap gap-2">
+                <button id="signupCta" class="btn btn-outline-light px-4" data-bs-toggle="modal" data-bs-target="#authModal">Sign up for free</button>
+              </div>
+        <div id="ctaRow4" class="w-100 d-flex justify-content-center mt-5">
+          <div id="versionProgress" class="version-progress version-progress-compact w-100" style="max-width:300px;" data-percent="25" data-next="v1.1">
+            <div class="d-flex justify-content-between align-items-center mb-1 small">
+              <div class="text-muted d-flex align-items-center gap-2">
+                <span>Progress</span>
+                <span class="badge bg-secondary" id="versionProgressLabel">v1.1</span>
+              </div>
+              <div class="text-muted" id="versionProgressPct">25%</div>
+            </div>
+              <div class="progress progress-themed" role="progressbar" aria-label="Version progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" id="versionProgressBar" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+        <div id="ctaRow3" class="d-flex flex-column justify-content-center align-items-center gap-3 mt-3">
+          <button id="infoBtn" class="btn btn-versions btn-sm px-3 d-inline-flex align-items-center gap-2" data-bs-toggle="modal" data-bs-target="#infoModal">
+            <span aria-hidden="true">📜</span>
+            <span>Versions / Changelog</span>
+          </button>
+        </div>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer py-4">
+      <div class="container small d-flex justify-content-between">
+  <span><a href="https://tendev2d.itch.io" target="_blank" rel="noopener" class="link-light link-underline-opacity-0">© 2025 Tendev2d</a></span>
+        <a class="link-light link-underline-opacity-0" href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms</a>
+      </div>
+    </footer>
+    <div class="modal fade" id="authModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content auth-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold" id="authModalLabel">Account</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2">
+            <ul class="nav nav-pills mb-3" id="authTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="login-tab" data-bs-toggle="pill" data-bs-target="#loginPane" type="button" role="tab">Login</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="signup-tab" data-bs-toggle="pill" data-bs-target="#signupPane" type="button" role="tab">Sign Up</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="authTabsContent">
+              <div class="tab-pane fade show active" id="loginPane" role="tabpanel">
+                <form id="loginForm" class="auth-form" autocomplete="off">
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" name="password" required minlength="6" />
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="1" id="rememberChk">
+                      <label class="form-check-label small" for="rememberChk">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary px-4">Login</button>
+                  </div>
+                  <div class="text-end mb-3">
+                    <a href="#" id="forgotPassLink" class="small link-light link-underline-opacity-0">Forgot password?</a>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="signupPane" role="tabpanel">
+                <form id="signupForm" class="auth-form" autocomplete="off">
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" required />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" name="password" required minlength="6" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" name="confirm" required minlength="6" />
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success px-4">Create Account</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Change Password Modal -->
+    <div class="modal fade" id="changePassModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content auth-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">Change Password</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2">
+            <form id="changePassForm" autocomplete="off">
+              <div class="mb-3">
+                <label class="form-label">Current Password</label>
+                <input type="password" class="form-control" name="currentPassword" required minlength="6" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">New Password</label>
+                <input type="password" class="form-control" name="newPassword" required minlength="6" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Confirm New Password</label>
+                <input type="password" class="form-control" name="confirmPassword" required minlength="6" />
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-warning px-4">Change</button>
+              </div>
+              <div class="form-text mt-2 small">Use at least 6 characters. Mix letters, numbers & symbols.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Forgot Password Modal -->
+    <div class="modal fade" id="forgotModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content auth-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">Forgot Password</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2">
+            <form id="forgotForm" autocomplete="off">
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" required />
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-warning px-4">Send reset link</button>
+              </div>
+              <div class="form-text mt-2 small">If the email exists, a random temporary password will be generated and emailed.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Info Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content auth-modal info-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">Versions & Changelog</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <span class="badge rounded-pill px-3 py-2 version-pill">Current: v1.0</span>
+              <span class="small text-muted">Basic feature set</span>
+            </div>
+            <ul class="nav nav-tabs versions-tabs" id="versionsTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ver-10-tab" data-bs-toggle="tab" data-bs-target="#ver-10" type="button" role="tab" aria-controls="ver-10" aria-selected="true">v1.0</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ver-11-tab" data-bs-toggle="tab" data-bs-target="#ver-11" type="button" role="tab" aria-controls="ver-11" aria-selected="false">v1.1</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ver-12-tab" data-bs-toggle="tab" data-bs-target="#ver-12" type="button" role="tab" aria-controls="ver-12" aria-selected="false">v1.2</button>
+              </li>
+            </ul>
+            <div class="tab-content pt-3" id="versionsTabsContent">
+              <div class="tab-pane fade show active" id="ver-10" role="tabpanel" aria-labelledby="ver-10-tab">
+                <div class="changelog-entry">
+                  <div class="small text-muted mb-2">Released: 2025-10-19</div>
+                  <ul class="changelog-list">
+                    <li>Provisioning: One-click temporary server creation.</li>
+                    <li>Persistence: Basic auto-save cycles.</li>
+                    <li>Players: Max <strong>10</strong>.</li>
+                    <li>Chat: Real-time text chat.</li>
+                    <li>Movement: Position & movement sync.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="ver-11" role="tabpanel" aria-labelledby="ver-11-tab">
+                <div class="changelog-entry">
+                  <div class="small text-muted mb-2">Planned</div>
+                  <ul class="changelog-list">
+                    <li>Inventory sync: items, weapons, armors, key items.</li>
+                    <li>Currency sync: gold.</li>
+                    <li>Equipment sync: main slots (head, body, accessory, etc.).</li>
+                    <li>Actor profile sync: player name and basic stats.</li>
+                  </ul>
+                  <div class="form-text small opacity-75">Plans may adjust before release.</div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="ver-12" role="tabpanel" aria-labelledby="ver-12-tab">
+                <div class="changelog-entry">
+                  <div class="small text-muted mb-1">Coming soon</div>
+                  <p class="mb-0 opacity-75">No details available yet.</p>
+                </div>
+              </div>
+              </div>
+              <div class="versions-notice small opacity-75 mt-2">
+                More updates will land as community support grows. Donations help me dedicate more time to ship new versions — stay tuned!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Terms Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content auth-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">Free Project Terms</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2 small" style="max-height:60vh; overflow-y:auto;">
+            <p class="mb-2">These terms outline basic usage rules for this free temporary server creation service.</p>
+            <ul class="small ps-3 mb-3" style="line-height:1.4;">
+              <li><strong>No guarantee:</strong> Uptime and data persistence are best effort; servers may reset or terminate without notice.</li>
+              <li><strong>Fair use:</strong> Please avoid automated abuse (spam starts/stops, resource exhaustion).</li>
+              <li><strong>Temporary data:</strong> Any game/session data may be cleared after TTL expiration.</li>
+              <li><strong>Security:</strong> Do not store sensitive personal information. Use at your own risk.</li>
+              <li><strong>Rate limits:</strong> Cooldowns or caps may change to protect stability.</li>
+              <li><strong>Content:</strong> Illegal, hateful, or malicious content is prohibited.</li>
+              <li><strong>Privacy:</strong> Basic logs (IP, timestamps) may be kept for abuse prevention.</li>
+              <li><strong>Change:</strong> Terms & features may evolve without prior notice.</li>
+            </ul>
+            <p class="mb-2"><strong>Sponsorship & Upgrade:</strong> Enhanced/dedicated features require manual arrangement (see Upgrade modal contacts).</p>
+            <p class="opacity-75 mb-1">Continuing use indicates acceptance of these terms.</p>
+            <p class="opacity-50 mb-0">Last updated: 2025-10-19</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Config Server Modal -->
+    <div class="modal fade" id="configModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content auth-modal">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">Server Config</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-2">
+            <ul class="nav nav-tabs" id="cfgTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-spawn-tab" data-bs-toggle="tab" data-bs-target="#tab-spawn" type="button" role="tab">Default Spawn</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-users-tab" data-bs-toggle="tab" data-bs-target="#tab-users" type="button" role="tab">Users</button>
+              </li>
+            </ul>
+            <div class="tab-content pt-3">
+              <div class="tab-pane fade show active" id="tab-spawn" role="tabpanel" aria-labelledby="tab-spawn-tab">
+                <div class="row g-2">
+                  <div class="col-4"><label class="form-label">Map ID</label><input id="cfg-mapId" type="number" class="form-control" value="1" /></div>
+                  <div class="col-4"><label class="form-label">X</label><input id="cfg-x" type="number" class="form-control" value="10" /></div>
+                  <div class="col-4"><label class="form-label">Y</label><input id="cfg-y" type="number" class="form-control" value="10" /></div>
+                  <div class="col-8"><label class="form-label">Character Name</label><input id="cfg-char-name" type="text" class="form-control" value="Hero" /></div>
+                  <div class="col-4"><label class="form-label">Character Index</label><input id="cfg-char-index" type="number" class="form-control" value="0" /></div>
+                </div>
+                <div class="mt-3 d-flex gap-2 justify-content-end">
+                  <button id="btn-save-config" class="btn btn-primary">Save</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-users" role="tabpanel" aria-labelledby="tab-users-tab">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <label class="form-label">Select user</label>
+                    <select id="usersSelect" class="form-select" size="6"></select>
+                  </div>
+                  <div class="col-6">
+                    <div class="mb-2">
+                      <label class="form-label">Selected</label>
+                      <input id="usr-selected-name" class="form-control" placeholder="—" disabled />
+                    </div>
+                    <div class="row g-2">
+                      <div class="col-4"><label class="form-label">Map ID</label><input id="usr-mapId" type="number" class="form-control" /></div>
+                      <div class="col-4"><label class="form-label">X</label><input id="usr-x" type="number" class="form-control" /></div>
+                      <div class="col-4"><label class="form-label">Y</label><input id="usr-y" type="number" class="form-control" /></div>
+                    </div>
+                    <div class="mt-3 d-flex gap-2 justify-content-end">
+                      <button id="btn-user-delete" class="btn btn-outline-danger" disabled>Delete</button>
+                      <button id="btn-user-save" class="btn btn-primary" disabled>Save</button>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.jquery.js"></script>
+    <div id="mobileBlock" class="mobile-block" hidden>
+      <div class="mobile-block-inner text-center">
+        <h2 class="fw-bold mb-3">Desktop Only</h2>
+        <p class="mb-3">Vui lòng xoay ngang thiết bị hoặc truy cập bằng máy tính để bàn để sử dụng tính năng này.</p>
+        <p class="small opacity-75">Width tối thiểu khuyến nghị: 900px</p>
+      </div>
+    </div>
+  </body>
+  </html>
