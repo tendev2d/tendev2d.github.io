@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Optional: configure API base when hosting frontend on a different domain/IP -->
+    <!-- Example: https://your-api.example.com:8097 (leave empty to use same-origin relative /api) -->
+    <meta name="api-base" content="31.187.74.234:3000" />
   <title>TenCore Online v1.0 - Create Server FREE</title>
   <meta name="description" content="v1.0: auto provisioning, basic auto save, 5 player cap, chat, movement sync." />
   <link rel="icon" href="https://tendev2d.github.io/assets/navigation/images/icon.png" type="image/x-icon"> 
@@ -364,12 +367,22 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Set API base from meta before app scripts run
+      (function () {
+        var meta = document.querySelector('meta[name="api-base"]');
+        var base = (meta && meta.getAttribute('content') || '').trim();
+        // Remove trailing slash if present
+        if (base.endsWith('/')) base = base.slice(0, -1);
+        window.API_BASE = base; // e.g. "https://1.2.3.4:8097" or ""
+      })();
+    </script>
     <script src="./app.jquery.js"></script>
     <div id="mobileBlock" class="mobile-block" hidden>
       <div class="mobile-block-inner text-center">
         <h2 class="fw-bold mb-3">Desktop Only</h2>
-        <p class="mb-3">Vui lòng xoay ngang thiết bị hoặc truy cập bằng máy tính để bàn để sử dụng tính năng này.</p>
-        <p class="small opacity-75">Width tối thiểu khuyến nghị: 900px</p>
+        <p class="mb-3">Please rotate your device to landscape or use a desktop computer to use this feature.</p>
+        <p class="small opacity-75">Recommended minimum width: 900px</p>
       </div>
     </div>
   </body>

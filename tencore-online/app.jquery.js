@@ -54,8 +54,14 @@ $(function () {
   }
 
   // API helpers
+  function apiUrl(path) {
+    const base = (window.API_BASE || '').trim();
+    if (!base) return path; // same-origin
+    return base + path; // base already sans trailing slash
+  }
+
   async function apiGetConfig() {
-    const res = await fetch('/api/server/config', {
+    const res = await fetch(apiUrl('/api/server/config'), {
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
     if (!res.ok) throw new Error('Failed to load');
@@ -63,7 +69,7 @@ $(function () {
   }
 
   async function apiPatchConfig(patch) {
-    const res = await fetch('/api/server/config', {
+    const res = await fetch(apiUrl('/api/server/config'), {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + window.sessionToken },
       body: JSON.stringify(patch)
@@ -73,7 +79,7 @@ $(function () {
     return data;
   }
   async function apiStartServer() {
-    const res = await fetch('/api/server/start', {
+    const res = await fetch(apiUrl('/api/server/start'), {
       method: 'POST',
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
@@ -89,7 +95,7 @@ $(function () {
   }
 
   async function apiStatusServer() {
-    const res = await fetch('/api/server/status', {
+    const res = await fetch(apiUrl('/api/server/status'), {
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
     if (!res.ok) return null;
@@ -97,7 +103,7 @@ $(function () {
   }
 
   async function apiStopServer() {
-    const res = await fetch('/api/server/stop', {
+    const res = await fetch(apiUrl('/api/server/stop'), {
       method: 'POST',
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
@@ -106,14 +112,14 @@ $(function () {
 
   // User data APIs
   async function apiListUsers() {
-    const res = await fetch('/api/user/players', {
+    const res = await fetch(apiUrl('/api/user/players'), {
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
     if (!res.ok) throw new Error('Failed to list');
     return res.json(); // { players, max }
   }
   async function apiUpdateUser(id, patch) {
-    const res = await fetch(`/api/user/players/${encodeURIComponent(id)}`, {
+    const res = await fetch(apiUrl(`/api/user/players/${encodeURIComponent(id)}`), {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + window.sessionToken },
       body: JSON.stringify(patch)
@@ -123,7 +129,7 @@ $(function () {
     return data;
   }
   async function apiDeleteUser(id) {
-    const res = await fetch(`/api/user/players/${encodeURIComponent(id)}`, {
+    const res = await fetch(apiUrl(`/api/user/players/${encodeURIComponent(id)}`), {
       method: 'DELETE',
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
@@ -139,7 +145,7 @@ $(function () {
   async function checkSession() {
     if (!window.sessionToken) return false;
     try {
-      const res = await fetch('/api/session', {
+      const res = await fetch(apiUrl('/api/session'), {
         headers: {
           'Authorization': 'Bearer ' + window.sessionToken
         }
@@ -376,7 +382,7 @@ $(function () {
     const data = Object.fromEntries(new FormData(this).entries());
     if (!data.email || !data.password) return showToast('error', 'Email & password required.');
     const $submit = $(this).find('button[type="submit"]');
-    withBtnLoading($submit, () => fetch('/api/login', {
+    withBtnLoading($submit, () => fetch(apiUrl('/api/login'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -407,7 +413,7 @@ $(function () {
     if (!data.email || !data.password || !data.confirm) return showToast('error', 'All fields required.');
     if (data.password !== data.confirm) return showToast('error', 'Passwords do not match.');
     const $submit = $(this).find('button[type="submit"]');
-    withBtnLoading($submit, () => fetch('/api/signup', {
+    withBtnLoading($submit, () => fetch(apiUrl('/api/signup'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: data.email, password: data.password })
@@ -439,7 +445,7 @@ $(function () {
     const data = Object.fromEntries(new FormData(this).entries());
     if (!data.email) return showToast('error', 'Email required');
     const $submit = $(this).find('button[type="submit"]');
-    withBtnLoading($submit, () => fetch('/api/forgot-password', {
+    withBtnLoading($submit, () => fetch(apiUrl('/api/forgot-password'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: data.email })
@@ -507,7 +513,7 @@ $(function () {
       return showToast('error', 'New password too short');
     }
     const $submit = $(this).find('button[type="submit"]');
-    withBtnLoading($submit, () => fetch('/api/change-password', {
+    withBtnLoading($submit, () => fetch(apiUrl('/api/change-password'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + window.sessionToken },
       body: JSON.stringify(data)
@@ -560,7 +566,7 @@ $(function () {
     if (!isLoggedIn()) return;
     withBtnLoading($renewBtn, async () => {
       try {
-        const res = await fetch('/api/server/renew', {
+        const res = await fetch(apiUrl('/api/server/renew'), {
           method: 'POST',
           headers: { 'Authorization': 'Bearer ' + window.sessionToken }
         });
