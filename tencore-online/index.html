@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Optional: configure API base when hosting frontend on a different domain/IP -->
-    <!-- Example: https://your-api.example.com:8097 (leave empty to use same-origin relative /api) -->
-    <meta name="api-base" content="31.187.74.234:3001" />
+  <!-- Optional: configure API base when hosting frontend on a different domain/IP -->
+  <!-- Example: https://your-api.example.com:8097 (leave empty to use same-origin relative /api) -->
+  <!-- NOTE: include protocol (http:// or https://) to avoid the browser treating it as a relative path. -->
+  <meta name="api-base" content="http://31.187.74.234:3001" />
   <title>TenCore Online v1.0 - Create Server FREE</title>
   <meta name="description" content="v1.0: auto provisioning, basic auto save, 5 player cap, chat, movement sync." />
   <link rel="icon" href="https://tendev2d.github.io/assets/navigation/images/icon.png" type="image/x-icon"> 
@@ -372,6 +373,11 @@
       (function () {
         var meta = document.querySelector('meta[name="api-base"]');
         var base = (meta && meta.getAttribute('content') || '').trim();
+        // If protocol is missing, default to current protocol to form an absolute URL
+        if (base && !/^https?:\/\//i.test(base) && !/^\/\//.test(base)) {
+          var proto = (location.protocol === 'https:') ? 'https://' : 'http://';
+          base = proto + base;
+        }
         // Remove trailing slash if present
         if (base.endsWith('/')) base = base.slice(0, -1);
         window.API_BASE = base; // e.g. "https://1.2.3.4:8097" or ""
