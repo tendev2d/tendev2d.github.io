@@ -81,6 +81,7 @@ $(function () {
     const $login = $loginBtn;
     if ($login && $login.length) btns.push($login);
     const $gsiNav = $gsiNavBtn; // Google icon button (container rendered by GIS)
+    const $gsiModal = $('#gsiBtn'); // Google button inside auth modal
 
     // Regular login button: swap to spinner and disable to avoid duplicate clicks
     if ($login && $login.length) {
@@ -119,6 +120,19 @@ $(function () {
           .attr('title', 'Đang kiểm tra phiên đăng nhập...');
       } else {
         $gsiNav.removeAttr('aria-disabled')
+          .css({ pointerEvents: '', opacity: '' })
+          .removeAttr('title');
+      }
+    }
+
+    // Google button in modal: disable interactions and dim
+    if ($gsiModal && $gsiModal.length) {
+      if (isLoading) {
+        $gsiModal.attr('aria-disabled', 'true')
+          .css({ pointerEvents: 'none', opacity: 0.6 })
+          .attr('title', 'Đang kiểm tra phiên đăng nhập...');
+      } else {
+        $gsiModal.removeAttr('aria-disabled')
           .css({ pointerEvents: '', opacity: '' })
           .removeAttr('title');
       }
@@ -502,6 +516,7 @@ $(function () {
         callback: async (resp) => {
           const cred = resp && (resp.credential || resp.idToken || resp.token) || null;
           if (!cred) return showToast('error', 'Google login failed');
+          setAuthButtonsLoading(true, 'Đang kiểm tra');
           try {
             const r = await fetch(apiUrl('/api/google-login'), {
               method: 'POST',
@@ -520,10 +535,12 @@ $(function () {
             $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
             bootstrap.Modal.getInstance(document.getElementById('authModal'))?.hide();
             showToast('success', 'Logged in with Google');
-            initServerIfAuthed();
+            await initServerIfAuthed();
           } catch (e) {
             console.error(e);
             showToast('error', 'Network error');
+          } finally {
+            setAuthButtonsLoading(false);
           }
         },
         auto_select: false,
