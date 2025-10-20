@@ -5,7 +5,7 @@ $(function () {
   // Elements
   const $card = $('#serverCard');
   const $ip = $('#ip');
-  const $port = $('#port');
+  // Port field removed (public URL is shown instead)
   const $max = $('#max');
   const $ttl = $('#ttl');
   const $sub = $('.sub');
@@ -29,6 +29,9 @@ $(function () {
   let ttl = 0;
   let serverRunning = false; // explicit state instead of relying on button text
   let googleInited = false;
+  // Waiting indicator for public host (Cloudflare)
+  let waitingHostTimer = null; // timeout to stop waiting
+  const WAITING_HOST_MAX_MS = 15000; // 15s
 
   // Format seconds -> HH:MM:SS
   function fmt(s) {
@@ -183,6 +186,27 @@ $(function () {
     }
   }
 
+  // ===== Waiting indicator for public host =====
+  function startWaitingPublicHost() {
+    stopWaitingPublicHost();
+    // Show spinner (no text) in IP field while waiting for public host
+    const loadingHtml = '<span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>';
+    $ip.html(loadingHtml);
+    waitingHostTimer = setTimeout(() => {
+      // Only clear the timer here; timeout handling happens in the poll loop
+      stopWaitingPublicHost(true);
+    }, WAITING_HOST_MAX_MS);
+  }
+
+  function stopWaitingPublicHost(timeout = false) {
+    if (waitingHostTimer) {
+      clearTimeout(waitingHostTimer);
+      waitingHostTimer = null;
+    }
+    // Do not restore any fallback; either success path has updated the field,
+    // or timeout path will stop the server and set stopped state.
+  }
+
   // Mobile / layout checks
   const MIN_DESKTOP_WIDTH = 900;
 
@@ -301,8 +325,15 @@ $(function () {
   });
 
   function applyServerData(s) {
-    $ip.text(s.ip);
-    $port.text(s.port);
+    // Prefer displaying host without port when available
+    if (s.publicHost) {
+      $ip.text(s.publicHost);
+      stopWaitingPublicHost(false);
+    } else if (s.publicUrl) {
+      $ip.text(s.publicUrl);
+    } else {
+      $ip.text(`${s.ip}${s.port ? ':' + s.port : ''}`);
+    }
     $max.text(s.maxUsers);
     $accountEmail.text(s.email || '—');
     $card.removeAttr('hidden');
@@ -381,7 +412,7 @@ $(function () {
     ttl = 0;
     $ttl.text('—');
     $ip.text('—');
-    $port.text('—');
+  // Port field removed
     $max.text('—');
     $card.attr('hidden', '');
     $serverToggleBtn.text('Start Server');
@@ -391,6 +422,7 @@ $(function () {
     $serverToggleBtn.removeClass('btn-server-running');
     $heroTitle.text('Server control');
     $heroSubtitle.text('Start a temporary server');
+    stopWaitingPublicHost(false);
     serverRunning = false;
   }
 
@@ -644,6 +676,35 @@ $(function () {
           const data = await apiStartServer();
           applyServerData(data);
           setServerRunningState();
+          // If tunnel not ready yet, poll status for a short period to get publicHost (no port)
+          if (!data.publicHost) {
+            startWaitingPublicHost();
+            const startedAt = Date.now();
+            const maxWait = 15000; // 15s
+            const interval = 1000;
+            const poll = async () => {
+              if (!serverRunning) return; // stopped manually
+              if (Date.now() - startedAt > maxWait) {
+                // Timeout: stop server instead of showing IP fallback
+                stopWaitingPublicHost(true);
+                try { await apiStopServer(); } catch {}
+                setServerStoppedState();
+                showToast('error', 'Không thể tạo domain công khai, server đã dừng.');
+                return;
+              }
+              try {
+                const s = await apiStatusServer();
+                if (s && s.publicHost) {
+                  applyServerData(s);
+                  stopWaitingPublicHost(false);
+                  showToast('success', 'Public link ready');
+                  return; // done
+                }
+              } catch {}
+              setTimeout(poll, interval);
+            };
+            setTimeout(poll, interval);
+          }
           showToast('success', 'Server started');
         } catch (e) {
           if (e.message === 'Cooldown') return; // toast already shown
