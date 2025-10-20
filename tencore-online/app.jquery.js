@@ -16,6 +16,7 @@ $(function () {
   const $logoutBtn = $('#logoutBtn');
   const $changePassBtn = $('#changePassBtn');
   const $navEmail = $('#navEmail');
+  const $gsiNavBtn = $('#gsiNavBtn');
   const $heroTitle = $('#heroTitle');
   const $heroSubtitle = $('#heroSubtitle');
   const $accountEmail = $('#accountEmail');
@@ -27,6 +28,7 @@ $(function () {
   let timerId = null;
   let ttl = 0;
   let serverRunning = false; // explicit state instead of relying on button text
+  let googleInited = false;
 
   // Format seconds -> HH:MM:SS
   function fmt(s) {
@@ -291,8 +293,17 @@ $(function () {
     $('#infoBtn').removeAttr('hidden');
     $('#configBtn').removeAttr('hidden');
     $loginBtn.attr('hidden', '');
-    $logoutBtn.removeAttr('hidden');
-    $changePassBtn.removeAttr('hidden');
+  $logoutBtn.removeAttr('hidden');
+  // Hide Google navbar login icon when already logged in
+  $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
+    // Hide Change Password if logged in via Google
+    if ($changePassBtn.length) {
+      if (window.sessionProvider === 'google') {
+        $changePassBtn.attr('hidden', '');
+      } else {
+        $changePassBtn.removeAttr('hidden');
+      }
+    }
     $serverToggleBtn.removeAttr('hidden');
     if ($card.is(':hidden')) {
       $heroTitle.text('Server control');
@@ -316,7 +327,9 @@ $(function () {
     $('#infoBtn').attr('hidden', '');
     $('#configBtn').attr('hidden', '');
     $loginBtn.removeAttr('hidden');
-    $logoutBtn.attr('hidden', '');
+  $logoutBtn.attr('hidden', '');
+  // Show Google navbar login icon when logged out
+  $gsiNavBtn.length && $gsiNavBtn.removeAttr('hidden');
     $changePassBtn.attr('hidden', '');
     $serverToggleBtn.attr('hidden', '');
     $serverToggleBtn.text('Start Server');
@@ -360,6 +373,66 @@ $(function () {
 
   // Initial run
   initServerIfAuthed();
+  // Initialize Google Sign-In button if configured
+  function initGoogleSignIn() {
+    if (googleInited) return;
+    try {
+      const meta = document.querySelector('meta[name="google-client-id"]');
+      const clientId = (meta && meta.getAttribute('content') || '').trim();
+      if (!clientId || !window.google || !window.google.accounts || !window.google.accounts.id) return;
+      const $btn = $('#gsiBtn');
+      const $navBtn = $('#gsiNavBtn');
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        callback: async (resp) => {
+          const cred = resp && (resp.credential || resp.idToken || resp.token) || null;
+          if (!cred) return showToast('error', 'Google login failed');
+          try {
+            const r = await fetch(apiUrl('/api/google-login'), {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ credential: cred })
+            });
+            const j = await r.json().catch(() => ({}));
+            if (!r.ok) return showToast('error', j.error || 'Google login failed');
+            window.sessionToken = j.token;
+            window.sessionEmail = j.email;
+            window.sessionProvider = 'google';
+            localStorage.setItem('sessionToken', window.sessionToken);
+            localStorage.setItem('sessionEmail', window.sessionEmail);
+            localStorage.setItem('sessionProvider', window.sessionProvider);
+            // Hide navbar Google icon immediately
+            $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
+            bootstrap.Modal.getInstance(document.getElementById('authModal'))?.hide();
+            showToast('success', 'Logged in with Google');
+            initServerIfAuthed();
+          } catch (e) {
+            console.error(e);
+            showToast('error', 'Network error');
+          }
+        },
+        auto_select: false,
+        ux_mode: 'popup',
+      });
+      if ($btn.length) {
+        window.google.accounts.id.renderButton($btn[0], { theme: 'outline', size: 'large', shape: 'pill', width: 300 });
+      }
+      if ($navBtn.length) {
+        // Render a high-contrast icon-only Google button in navbar
+        // 'filled_blue' improves visibility on light/dark backgrounds
+        window.google.accounts.id.renderButton($navBtn[0], { type: 'icon', theme: 'filled_blue', size: 'large', shape: 'circle' });
+      }
+      googleInited = true;
+    } catch (e) {
+      console.warn('Google init failed:', e.message);
+    }
+  }
+  // Try after DOM ready
+  initGoogleSignIn();
+  // Try again when the Google script has likely loaded (window load)
+  window.addEventListener('load', () => setTimeout(initGoogleSignIn, 0));
+  // Try when the auth modal opens (user intent)
+  document.getElementById('authModal')?.addEventListener('shown.bs.modal', initGoogleSignIn);
 
   // Resize + orientation listeners
   window.addEventListener('resize', () => {
@@ -392,10 +465,14 @@ $(function () {
         if (!ok) return showToast('error', j.error || 'Login failed');
         window.sessionToken = j.token;
         window.sessionEmail = data.email;
+        window.sessionProvider = 'password';
         if ($('#rememberChk').is(':checked')) {
           localStorage.setItem('sessionToken', window.sessionToken);
           localStorage.setItem('sessionEmail', window.sessionEmail);
+          localStorage.setItem('sessionProvider', window.sessionProvider);
         }
+        // Hide navbar Google icon immediately on login
+        $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
         bootstrap.Modal.getInstance(document.getElementById('authModal')).hide();
         showToast('success', 'Logged in');
         initServerIfAuthed();
@@ -490,8 +567,10 @@ $(function () {
   $logoutBtn.on('click', () => {
     window.sessionToken = null;
     window.sessionEmail = null;
+    window.sessionProvider = null;
     localStorage.removeItem('sessionToken');
     localStorage.removeItem('sessionEmail');
+    localStorage.removeItem('sessionProvider');
     showToast('success', 'Logged out');
     setLoggedOutState();
   });
@@ -585,9 +664,13 @@ $(function () {
   (function restoreSession() {
     const storedToken = localStorage.getItem('sessionToken');
     const storedEmail = localStorage.getItem('sessionEmail');
+    const storedProvider = localStorage.getItem('sessionProvider');
     if (storedToken && storedEmail) {
       window.sessionToken = storedToken;
       window.sessionEmail = storedEmail;
+      if (storedProvider) window.sessionProvider = storedProvider;
+      // Hide Google icon immediately to avoid flicker while session verifies
+      $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
       initServerIfAuthed();
     }
   })();

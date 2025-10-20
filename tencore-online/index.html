@@ -7,6 +7,9 @@
   <!-- Example: https://your-api.example.com:8097 (leave empty to use same-origin relative /api) -->
   <!-- NOTE: include protocol (http:// or https://) to avoid the browser treating it as a relative path. -->
   <meta name="api-base" content="https://field-aud-restoration-armed.trycloudflare.com" />
+  <!-- <meta name="api-base" content="" /> -->
+  <!-- Optional: Google OAuth Client ID for Google Sign-In (GSI). Set to your OAuth 2.0 Web client ID. -->
+  <meta name="google-client-id" content="489655445841-kdi80a0ur9nnf9egilu4615dp5i6l8jr.apps.googleusercontent.com" />
   <title>TenCore Online v1.0 - Create Server FREE</title>
   <meta name="description" content="v1.0: auto provisioning, basic auto save, 5 player cap, chat, movement sync." />
   <link rel="icon" href="https://tendev2d.github.io/assets/navigation/images/icon.png" type="image/x-icon"> 
@@ -20,6 +23,7 @@
         <div class="ms-auto d-flex align-items-center gap-2" id="navAuthArea">
           <span id="navEmail" class="text-light small fw-semibold" style="letter-spacing:.5px;" hidden></span>
           <button id="loginBtn" class="btn btn-outline-light btn-sm px-3" data-bs-toggle="modal" data-bs-target="#authModal">Login</button>
+          <div id="gsiNavBtn" class="ms-1 d-inline-flex align-items-center"></div>
           <button id="changePassBtn" class="btn btn-outline-light btn-sm px-3" data-bs-toggle="modal" data-bs-target="#changePassModal" hidden>Change Password</button>
           <button id="logoutBtn" class="btn btn-outline-light btn-sm px-3" hidden>Logout</button>
         </div>
@@ -366,7 +370,8 @@
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       // Set API base from meta before app scripts run

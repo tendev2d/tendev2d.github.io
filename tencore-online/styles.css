@@ -109,6 +109,9 @@ body.no-scroll { overflow:hidden; }
 /* Truncate long emails gracefully */
 #navEmail { max-width:220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
+/* Hide Google navbar login icon when user is logged in (defensive) */
+body.logged-in #gsiNavBtn { display: none !important; }
+
 /* (removed) Premium button styling and visibility rules */
 
 /* Compact server card spacing */
