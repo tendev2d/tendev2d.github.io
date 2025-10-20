@@ -100,6 +100,7 @@ $(function () {
     const res = await fetch(apiUrl('/api/server/status'), {
       headers: { 'Authorization': 'Bearer ' + window.sessionToken }
     });
+    if (res.status === 204) return null; // no active server
     if (!res.ok) return null;
     return res.json();
   }
