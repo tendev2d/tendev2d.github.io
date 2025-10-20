@@ -75,6 +75,66 @@ $(function () {
       .catch(e => { done(); throw e; });
   }
 
+  // Toggle loading/disabled state on auth buttons during pending session checks
+  function setAuthButtonsLoading(isLoading, label = 'Checking') {
+    const btns = [];
+    const $login = $loginBtn;
+    if ($login && $login.length) btns.push($login);
+    const $gsiNav = $gsiNavBtn; // Google icon button (container rendered by GIS)
+
+    // Regular login button: swap to spinner and disable to avoid duplicate clicks
+    if ($login && $login.length) {
+      if (isLoading) {
+        const originalHtml = $login.data('orig-html') || $login.html();
+        if (!$login.data('orig-html')) $login.data('orig-html', originalHtml);
+        const originalWidth = $login.outerWidth();
+        const loadingHtml = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span><span class="btn-label">${label}</span>`;
+        // Measure loading width to avoid layout shift
+        let targetWidth = originalWidth;
+        try {
+          const $clone = $login
+            .clone()
+            .css({ visibility: 'hidden', position: 'absolute', left: '-9999px', width: 'auto' })
+            .html(loadingHtml)
+            .appendTo('body');
+          const loadingWidth = $clone.outerWidth();
+          $clone.remove();
+          if (Number.isFinite(loadingWidth)) targetWidth = Math.max(originalWidth, loadingWidth);
+        } catch {}
+        $login.prop('disabled', true).css('width', targetWidth).html(loadingHtml);
+      } else {
+        if ($login.data('orig-html')) {
+          $login.prop('disabled', false).html($login.data('orig-html')).css('width', '');
+        } else {
+          $login.prop('disabled', false);
+        }
+      }
+    }
+
+    // Google navbar button: disable interactions and dim to indicate pending
+    if ($gsiNav && $gsiNav.length) {
+      if (isLoading) {
+        $gsiNav.attr('aria-disabled', 'true')
+          .css({ pointerEvents: 'none', opacity: 0.6 })
+          .attr('title', 'Đang kiểm tra phiên đăng nhập...');
+      } else {
+        $gsiNav.removeAttr('aria-disabled')
+          .css({ pointerEvents: '', opacity: '' })
+          .removeAttr('title');
+      }
+    }
+
+    // If auth modal is already open, disable its submit button too
+    const $modalSubmit = $('#loginForm button[type="submit"]');
+    if ($modalSubmit.length) {
+      if (isLoading) {
+        $modalSubmit.prop('disabled', true);
+      } else {
+        $modalSubmit.prop('disabled', false);
+      }
+    }
+  }
+
   // API helpers
   function apiUrl(path) {
     const base = (window.API_BASE || '').trim();
@@ -426,8 +486,8 @@ $(function () {
     serverRunning = false;
   }
 
-  // Initial run
-  initServerIfAuthed();
+  // Initial run (deferred: we will attempt to restore session below with loading state)
+  // initServerIfAuthed();
   // Initialize Google Sign-In button if configured
   function initGoogleSignIn() {
     if (googleInited) return;
@@ -747,16 +807,25 @@ $(function () {
   });
 
   // Auto restore session if remember me
-  (function restoreSession() {
+  (async function restoreSession() {
     const storedToken = localStorage.getItem('sessionToken');
     const storedEmail = localStorage.getItem('sessionEmail');
     const storedProvider = localStorage.getItem('sessionProvider');
     if (storedToken && storedEmail) {
-      window.sessionToken = storedToken;
-      window.sessionEmail = storedEmail;
-      if (storedProvider) window.sessionProvider = storedProvider;
-      // Hide Google icon immediately to avoid flicker while session verifies
-      $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
+      // Enter pending state to prevent duplicate login clicks while verifying token
+      setAuthButtonsLoading(true, 'Checking...');
+      try {
+        window.sessionToken = storedToken;
+        window.sessionEmail = storedEmail;
+        if (storedProvider) window.sessionProvider = storedProvider;
+        // Hide Google icon immediately to avoid flicker while session verifies
+        $gsiNavBtn.length && $gsiNavBtn.attr('hidden', '');
+        await initServerIfAuthed();
+      } finally {
+        setAuthButtonsLoading(false);
+      }
+    } else {
+      // No stored session; proceed with default UI
       initServerIfAuthed();
     }
   })();
