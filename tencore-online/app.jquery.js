@@ -152,6 +152,11 @@ $(function () {
           'Authorization': 'Bearer ' + window.sessionToken
         }
       });
+      if (res.status === 401) {
+        // Token invalid/expired or signed by another server; clear and force logged-out state
+        clearSession(true);
+        return false;
+      }
       if (!res.ok) return false;
       const data = await res.json();
       return !!data.email;
@@ -564,16 +569,18 @@ $(function () {
   }
 
   // Logout handler
-  $logoutBtn.on('click', () => {
+  function clearSession(silent = false) {
     window.sessionToken = null;
     window.sessionEmail = null;
     window.sessionProvider = null;
     localStorage.removeItem('sessionToken');
     localStorage.removeItem('sessionEmail');
     localStorage.removeItem('sessionProvider');
-    showToast('success', 'Logged out');
+    if (!silent) showToast('success', 'Logged out');
     setLoggedOutState();
-  });
+  }
+
+  $logoutBtn.on('click', () => clearSession(false));
 
   // (removed) Upgrade button handler
 
