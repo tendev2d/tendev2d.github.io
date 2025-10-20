@@ -117,7 +117,7 @@ $(function () {
       if (isLoading) {
         $gsiNav.attr('aria-disabled', 'true')
           .css({ pointerEvents: 'none', opacity: 0.6 })
-          .attr('title', 'Đang kiểm tra phiên đăng nhập...');
+          .attr('title', 'Checking sign-in session...');
       } else {
         $gsiNav.removeAttr('aria-disabled')
           .css({ pointerEvents: '', opacity: '' })
@@ -130,7 +130,7 @@ $(function () {
       if (isLoading) {
         $gsiModal.attr('aria-disabled', 'true')
           .css({ pointerEvents: 'none', opacity: 0.6 })
-          .attr('title', 'Đang kiểm tra phiên đăng nhập...');
+          .attr('title', 'Checking sign-in session...');
       } else {
         $gsiModal.removeAttr('aria-disabled')
           .css({ pointerEvents: '', opacity: '' })
@@ -516,7 +516,7 @@ $(function () {
         callback: async (resp) => {
           const cred = resp && (resp.credential || resp.idToken || resp.token) || null;
           if (!cred) return showToast('error', 'Google login failed');
-          setAuthButtonsLoading(true, 'Đang kiểm tra');
+          setAuthButtonsLoading(true, 'Checking...');
           try {
             const r = await fetch(apiUrl('/api/google-login'), {
               method: 'POST',
@@ -766,7 +766,7 @@ $(function () {
                 stopWaitingPublicHost(true);
                 try { await apiStopServer(); } catch {}
                 setServerStoppedState();
-                showToast('error', 'Không thể tạo domain công khai, server đã dừng.');
+                showToast('error', 'Unable to create public domain, server has been stopped.');
                 return;
               }
               try {
