@@ -43,9 +43,26 @@ $(function () {
     const originalHtml = $btn.data('orig-html') || $btn.html();
     const originalWidth = $btn.outerWidth();
     const label = opts.label || '...';
+    const loadingHtml = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span><span class="btn-label">${label}</span>`;
     if (!$btn.data('orig-html')) $btn.data('orig-html', originalHtml);
-    $btn.prop('disabled', true).css('width', originalWidth);
-    $btn.html(`<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span><span>${label}</span>`);
+
+    // Measure the width needed for the loading state to avoid wrapping/shift
+    let targetWidth = originalWidth;
+    try {
+      const $clone = $btn
+        .clone()
+        .css({ visibility: 'hidden', position: 'absolute', left: '-9999px', width: 'auto' })
+        .html(loadingHtml)
+        .appendTo('body');
+      const loadingWidth = $clone.outerWidth();
+      $clone.remove();
+      if (Number.isFinite(loadingWidth)) {
+        targetWidth = Math.max(originalWidth, loadingWidth);
+      }
+    } catch {}
+
+    $btn.prop('disabled', true).css('width', targetWidth);
+    $btn.html(loadingHtml);
     const done = () => {
       $btn.prop('disabled', false).html($btn.data('orig-html')).css('width', '');
     };

@@ -71,6 +71,8 @@ body.no-scroll { overflow:hidden; }
 .spinner-border { vertical-align: text-bottom; }
 .btn[disabled] { opacity:.8; position:relative; }
 .btn[disabled] .spinner-border { filter: drop-shadow(0 0 2px rgba(0,0,0,.4)); }
+/* Prevent label wrapping during loading state */
+.btn .btn-label { white-space: nowrap; }
 
 /* Toast styles */
 #toastContainer { pointer-events:none; }
