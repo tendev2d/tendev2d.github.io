@@ -33,6 +33,42 @@ $(function () {
   let waitingHostTimer = null; // timeout to stop waiting
   const WAITING_HOST_MAX_MS = 15000; // 15s
 
+  // Bypass ngrok browser warning interstitial for API requests
+  // When API_BASE points to *.ngrok-free.dev, ngrok may return an HTML warning page (ERR_NGROK_6024)
+  // unless the special header is present. We inject it automatically for matching hosts.
+  (function installNgrokBypass() {
+    try {
+      const base = (window.API_BASE || '').trim();
+      if (!base) return; // same-origin, nothing to do
+      let host = '';
+      try { host = new URL(base).hostname; } catch {}
+      const isNgrok = /ngrok-free\.dev$/i.test(host);
+      if (!isNgrok) return;
+      const originalFetch = window.fetch.bind(window);
+      window.fetch = (input, init) => {
+        try {
+          // Determine target hostname for this request
+          let targetHost = '';
+          if (typeof input === 'string') {
+            if (/^https?:\/\//i.test(input)) targetHost = new URL(input).hostname;
+            else if (base) targetHost = new URL(base + input).hostname;
+          } else if (input && typeof input.url === 'string') {
+            const u = input.url;
+            if (/^https?:\/\//i.test(u)) targetHost = new URL(u).hostname;
+            else if (base) targetHost = new URL(base + u).hostname;
+          }
+          if (/ngrok-free\.dev$/i.test(targetHost)) {
+            init = init || {};
+            const headers = new Headers(init.headers || {});
+            if (!headers.has('ngrok-skip-browser-warning')) headers.set('ngrok-skip-browser-warning', '1');
+            init.headers = headers;
+          }
+        } catch {}
+        return originalFetch(input, init);
+      };
+    } catch {}
+  })();
+
   // Format seconds -> HH:MM:SS
   function fmt(s) {
     const h = String(Math.floor(s / 3600)).padStart(2, '0');
