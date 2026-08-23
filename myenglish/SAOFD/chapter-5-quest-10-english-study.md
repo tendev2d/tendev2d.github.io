@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 5, QUEST 10
+# SAO: Fractured Daydream — Chapter 5, Main Quest 10 (5-10)
 
 ## Time to Be Brave
 
-> **Lộ trình học:** [Quest 9 — Gabriel Miller](chapter-5-quest-9-english-study.md) → **Chapter 5, Quest 10 — Time to Be Brave (đang học)** → [Side Quest 7 — Alice's Tea Party 5](chapter-5-side-quest-7-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 9 — Gabriel Miller](chapter-5-quest-9-english-study.md) → **Chapter 5, Quest 10 — Time to Be Brave (đang học)** → [Side Quest 7 — Alice's Tea Party 5](chapter-5-side-quest-7-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 10](https://www.youtube.com/watch?v=nJ-uGGQDJeo)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-10 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-10-walkthrough/)

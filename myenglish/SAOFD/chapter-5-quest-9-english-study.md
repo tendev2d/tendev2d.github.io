@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 9
+# SAO: Fractured Daydream — Chapter 5, Main Quest 9 (5-9)
 
 ## Gabriel Miller
 
-> **Lộ trình học:** [Quest 8 — The Final Clue](chapter-5-quest-8-english-study.md) → **Chapter 5, Quest 9 — Gabriel Miller (đang học)** → [Quest 10 — Time to Be Brave](chapter-5-quest-10-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 8 — The Final Clue](chapter-5-quest-8-english-study.md) → **Chapter 5, Quest 9 — Gabriel Miller (đang học)** → [Quest 10 — Time to Be Brave](chapter-5-quest-10-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 9](https://www.youtube.com/watch?v=yvHIGyf_hnI)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-9 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-9-walkthrough/)

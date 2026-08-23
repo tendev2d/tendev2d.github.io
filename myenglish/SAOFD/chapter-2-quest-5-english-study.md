@@ -2,7 +2,7 @@
 
 ## Cardinal
 
-> Lộ trình học: [2-4 — "DEAD" Indicators](chapter-2-quest-4-english-study.md) → **2-5 — Cardinal (đang học)** → [3-1 — Unexpected Reunion](chapter-3-quest-1-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-4 — "DEAD" Indicators](chapter-2-quest-4-english-study.md) → **2-5 — Cardinal (đang học)** → [3-1 — Unexpected Reunion](chapter-3-quest-1-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 15, Chapter 2 Quest 5](https://www.youtube.com/watch?v=86rzFoa21Fc)
 - Đối chiếu objective/thứ tự: [SAMURAI GAMERS — Main Quest 2-5 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-2-5-walkthrough/)

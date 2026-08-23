@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, SIDE QUEST 2
+# SAO: Fractured Daydream — Chapter 3, Side Quest 2 (3-S2)
 
 ## The Villains' Performance
 
-> Lộ trình học: [Main Quest 3.7 — A World for Whom?](chapter-3-quest-7-english-study.md) → **Side Quest 3.2 (đang học)** → [Chapter 4, Main Quest 4.1 — Tragedy at the Ruins](chapter-4-quest-1-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.7 — A World for Whom?](chapter-3-quest-7-english-study.md) → **Side Quest 3.2 (đang học)** → [Chapter 4, Main Quest 4.1 — Tragedy at the Ruins](chapter-4-quest-1-english-study.md)
 
 - Video hard-sub chính: [Anime Gaming Zero — The Villains' Performance](https://www.youtube.com/watch?v=8SUT4uM0KzQ)
 - Nguồn UI khóa exact title: [Vaelen — Chapter 3/Side Quest UI](https://www.youtube.com/watch?v=Hft3eVXeTKI) — quanh `02:26:20` của nguồn riêng này; không trộn vào clock story.

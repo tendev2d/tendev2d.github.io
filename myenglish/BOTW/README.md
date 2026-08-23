@@ -123,6 +123,9 @@ Mỗi bài narrative có nguồn, source-clock hoặc scene state, Dialogue Lab,
 - `Explorer` [Snow and Desert — 4 Minigames](09-world-systems-minigames-completion/minigames-02-snow-and-desert-4-game-english-study-hub.md)
 - `Explorer` [Horse and Wilderness — 4 Minigames](09-world-systems-minigames-completion/minigames-03-horse-and-wilderness-4-game-english-study-hub.md)
 - `Explorer` [Skill and Luck — 4 Minigames](09-world-systems-minigames-completion/minigames-04-skill-and-luck-4-game-english-study-hub.md)
+
+> **Tên tra cứu trong 4 hub minigame:** Bird-Man Research Study; Teba's Flight Range; Footrace; Mimo's Ring Course; Carry the Ice!; Sand-Seal Racing; Selmie's Shield-Surfing; Snowball Bowling; Deer Hunting; Horseback Archery Drill; Horseback Obstacle Course; The Test of Wood; Boom Bam Golf; Super Gut Check Challenge; All or Nothing; Restoring the Blue Flame. Đây là nhãn tra cứu để tìm đúng activity, không tự động là `EXACT UI` hoặc Adventure Log title nếu bài chưa có frame trực tiếp.
+
 - `100%` [Map 100%, Koroks, and Locations](09-world-systems-minigames-completion/completion-01-map-100-percent-koroks-and-locations-english-study-hub.md)
 - `100%` [Hyrule Compendium, Monster Medals, and Bosses](09-world-systems-minigames-completion/completion-02-hyrule-compendium-monster-medals-and-bosses-english-study-hub.md)
 - `100%` [Armor, Cooking, Fairies, Horses, and Economy](09-world-systems-minigames-completion/completion-03-armor-cooking-fairies-horses-and-economy-english-study-hub.md)

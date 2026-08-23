@@ -1,12 +1,12 @@
 # SAO: Fractured Daydream — Chapter 4, Side Quest 2 (4-S2)
 
-> **Lộ trình học:** [Potential Culprit](chapter-4-quest-4-english-study.md) → **Kind Soul (đang học)** → [Alice's Tea Party 2](chapter-4-side-quest-5-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Potential Culprit](chapter-4-quest-4-english-study.md) → **Kind Soul (đang học)** → [Alice's Tea Party 2](chapter-4-side-quest-5-english-study.md)
 
 ## Kind Soul
 
-> Lộ trình học đề nghị: [Main Quest 4.4](chapter-4-quest-4-english-study.md) → **4-S2 (đang học)** → [4-S5 — Alice’s Tea Party 2](chapter-4-side-quest-5-english-study.md) → [Main Quest 4.5](chapter-4-quest-5-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.4](chapter-4-quest-4-english-study.md) → **4-S2 (đang học)** → [4-S5 — Alice’s Tea Party 2](chapter-4-side-quest-5-english-study.md) → [Main Quest 5 (4-5)](chapter-4-quest-5-english-study.md)
 
-> Sau Main Quest 4.4, game mở cả Main Quest 4.5, 4-S2 và 4-S5. Thứ tự trên là **lộ trình học của bộ tài liệu**, không phải điều kiện bắt buộc của game.
+> Sau Main Quest 4.4, game mở cả Main Quest 5 (`4-5`), `4-S2` và `4-S5`. Thứ tự trên là **lộ trình học của bộ tài liệu**, không phải điều kiện bắt buộc của game.
 
 - Video học: [Anime Gaming Zero — Part 34, Chapter 4 Side Quest 2: Kind Soul](https://www.youtube.com/watch?v=6e0IZoHbd8I)
 - Đối chiếu nhiệm vụ: [SAMURAI GAMERS — Side Quest 4-2 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-4-2-walkthrough/)

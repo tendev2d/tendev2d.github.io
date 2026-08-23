@@ -2,7 +2,7 @@
 
 ## A Makeshift Alliance
 
-> Lộ trình học: [2-2 — Unease](chapter-2-quest-2-english-study.md) → **2-S1 (đang học)** → [2-3 — A Hidden Player?](chapter-2-quest-3-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-2 — Unease](chapter-2-quest-2-english-study.md) → **2-S1 (đang học)** → [2-3 — A Hidden Player?](chapter-2-quest-3-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 16, Chapter 2 Side Quest 1](https://www.youtube.com/watch?v=ut5kkV3SfUE)
 - Đối chiếu thứ tự/objective: [SAMURAI GAMERS — Side Quest walkthrough list](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-walkthroughs/)

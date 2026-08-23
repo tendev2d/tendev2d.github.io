@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 5, QUEST 8
+# SAO: Fractured Daydream — Chapter 5, Main Quest 8 (5-8)
 
 ## The Final Clue
 
-> **Lộ trình học:** [Quest 7 — An Ideal Grim Reaper](chapter-5-quest-7-english-study.md) → **Chapter 5, Quest 8 — The Final Clue (đang học)** → [Quest 9 — Gabriel Miller](chapter-5-quest-9-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 7 — An Ideal Grim Reaper](chapter-5-quest-7-english-study.md) → **Chapter 5, Quest 8 — The Final Clue (đang học)** → [Quest 9 — Gabriel Miller](chapter-5-quest-9-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 8](https://www.youtube.com/watch?v=UbFOGhKuWMo)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-8 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-8-walkthrough/)

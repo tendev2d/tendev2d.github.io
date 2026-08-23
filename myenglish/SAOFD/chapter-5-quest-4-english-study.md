@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 4
+# SAO: Fractured Daydream — Chapter 5, Main Quest 4 (5-4)
 
 ## Fuuka's Record
 
-> **Lộ trình học:** [Side Quest 4 — Memorable Meals](chapter-5-side-quest-4-english-study.md) → **Chapter 5, Quest 4 — Fuuka's Record (đang học)** → [Side Quest 3 — The Stubborn and The Smith](chapter-5-side-quest-3-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 4 — Memorable Meals](chapter-5-side-quest-4-english-study.md) → **Chapter 5, Quest 4 — Fuuka's Record (đang học)** → [Side Quest 3 — The Stubborn and The Smith](chapter-5-side-quest-3-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 4](https://www.youtube.com/watch?v=axassny9_EM)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-4 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-4-walkthrough/)

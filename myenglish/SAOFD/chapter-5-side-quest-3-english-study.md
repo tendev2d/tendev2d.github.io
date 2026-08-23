@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 3
+# SAO: Fractured Daydream — Chapter 5, Side Quest 3 (5-S3)
 
 ## The Stubborn and The Smith
 
-> **Lộ trình học:** [Quest 4 — Fuuka's Record](chapter-5-quest-4-english-study.md) → **5-S3 (đang học)** → [Quest 5 — Junk Data](chapter-5-quest-5-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 4 — Fuuka's Record](chapter-5-quest-4-english-study.md) → **5-S3 (đang học)** → [Quest 5 — Junk Data](chapter-5-quest-5-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 

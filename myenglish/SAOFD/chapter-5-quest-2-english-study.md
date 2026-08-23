@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 2
+# SAO: Fractured Daydream — Chapter 5, Main Quest 2 (5-2)
 
 ## Fuuka's Pursuer
 
-> **Lộ trình học:** [Side Quest 6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md) → **Chapter 5, Quest 2 — Fuuka's Pursuer (đang học)** → [Quest 3 — Seabed Shrine](chapter-5-quest-3-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md) → **Chapter 5, Quest 2 — Fuuka's Pursuer (đang học)** → [Quest 3 — Seabed Shrine](chapter-5-quest-3-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 2](https://www.youtube.com/watch?v=yxfOkKfQcWE)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-2 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-2-walkthrough/)

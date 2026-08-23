@@ -749,8 +749,10 @@ A correct retell keeps depot order/build/combat open and leaves final Purah repo
 - [ ] Tôi nhận Vow of Mineru.
 - [ ] Tôi ghi Guidance from Ages Past complete.
 - [ ] Tôi nói save đã có Master Sword.
-- [ ] Tôi để Find the Fifth Sage final report unresolved.
+- [ ] Tôi dừng main18 trước final report, nhưng biết report Mineru về Purah là bridge bắt buộc tiếp theo.
 
 ## Đi tiếp
 
-Tiếp tục `main-19` để học Deku Tree lead, Light Dragon và Master Sword acquisition. Lưu ý video của main19 xuất hiện sớm hơn Fifth Sage footage; lesson order dùng story progression, không giả playback chronology.
+Ngay sau `Guidance from Ages Past`, hãy trở lại Lookout Landing và report việc đã tìm thấy Mineru cho Purah. Report này hoàn tất cả `Find the Fifth Sage` lẫn `Crisis at Hyrule Castle`; không được coi Vow of Mineru hoặc Spirit Temple là điểm Complete của hai title đó. Nếu save chưa có Master Sword, Purah chuyển Link sang Deku Tree lead và `main-19`; nếu save đã có Master Sword, `Destroy Ganondorf` có thể bắt đầu ngay và continuity đi thẳng tới `main-20`.
+
+Khi cần học nhánh thanh kiếm, tiếp tục `main-19` để học Deku Tree lead, Light Dragon và Master Sword acquisition. Lưu ý video của main19 xuất hiện sớm hơn Fifth Sage footage; lesson order dùng story progression, không giả playback chronology.

@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, QUEST 7
+# SAO: Fractured Daydream — Chapter 3, Main Quest 7 (3-7)
 
 ## A World for Whom?
 
-> Lộ trình học: [Main Quest 3.6 — Cognitive Contamination](chapter-3-quest-6-english-study.md) → **Main Quest 3.7 (đang học)** → [Side Quest 3.2 — The Villains' Performance](chapter-3-side-quest-2-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.6 — Cognitive Contamination](chapter-3-quest-6-english-study.md) → **Main Quest 3.7 (đang học)** → [Side Quest 3.2 — The Villains' Performance](chapter-3-side-quest-2-english-study.md)
 
 - Video hard-sub chính: [Anime Gaming Zero — A World for Whom?](https://www.youtube.com/watch?v=v_LMKDRBWIA)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Main Quest 3.7 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-3-7-walkthrough/)

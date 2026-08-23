@@ -1,10 +1,10 @@
 # SAO: Fractured Daydream — Chapter 4, Side Quest 4 (4-S4)
 
-> **Lộ trình học:** [Dreams of Someday](chapter-4-side-quest-3-english-study.md) → **Alice's Tea Party 1 (đang học)** → [Potential Culprit](chapter-4-quest-4-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Dreams of Someday](chapter-4-side-quest-3-english-study.md) → **Alice's Tea Party 1 (đang học)** → [Potential Culprit](chapter-4-quest-4-english-study.md)
 
 ## Alice's Tea Party 1
 
-> Lộ trình: [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → [4-S3](chapter-4-side-quest-3-english-study.md) → **4-S4 (đang học)** → [Main Quest 4.4](chapter-4-quest-4-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → [4-S3](chapter-4-side-quest-3-english-study.md) → **4-S4 (đang học)** → [Main Quest 4.4](chapter-4-quest-4-english-study.md)
 
 - Video học: [YouTube — Chapter 4 Side Quest 4](https://www.youtube.com/watch?v=X2yZgRfHR9s)
 - Đối chiếu nhiệm vụ: [SAMURAI GAMERS — Side Quest 4-4 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saof-side-quest-4-4-walkthrough/)

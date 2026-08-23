@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 4, Main Quest 4.5
+# SAO: Fractured Daydream — Chapter 4, Main Quest 5 (4-5)
 
 ## Accusations Behind Closed Doors
 
-> Lộ trình học: [Main Quest 4.4](chapter-4-quest-4-english-study.md) → [4-S2 — Kind Soul](chapter-4-side-quest-2-english-study.md) → [4-S5 — Alice’s Tea Party 2](chapter-4-side-quest-5-english-study.md) → **Main Quest 4.5 (đang học)**
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4 (4-4)](chapter-4-quest-4-english-study.md) → [4-S2 — Kind Soul](chapter-4-side-quest-2-english-study.md) → [4-S5 — Alice’s Tea Party 2](chapter-4-side-quest-5-english-study.md) → **Main Quest 5 (4-5, đang học)**
 
 - Video học: [Anime Gaming Zero — Part 32, Chapter 4 Quest 5](https://www.youtube.com/watch?v=In3FReMO2AI)
 - Đối chiếu nhiệm vụ: [SAMURAI GAMERS — Main Quest 4-5 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-4-5-walkthrough/)
@@ -22,7 +22,7 @@
 > Bài phủ đủ ý nghĩa các lượt thoại, phản ứng và logic điều tra, nhưng không chép transcript dài. `[SUB]` là móc rất ngắn; `[PARA]` là câu luyện viết lại. HUD, combat bark và Result UI được tách khỏi thoại story.
 
 > [!TIP]
-> **QUY ƯỚC ĐỌC VIỆT TỪ MAIN QUEST 4.5 TRỞ ĐI**
+> **QUY ƯỚC ĐỌC VIỆT TỪ MAIN QUEST 5 (4-5) TRỞ ĐI**
 >
 > - Phần **IN HOA** là nhịp đọc mạnh nhất.
 > - Dấu `-` chia từ thành miếng dễ đọc nhưng vẫn nối liền khi nói.
@@ -49,7 +49,7 @@
 
 `Fuuka is a suspect/potential culprit` **không đồng nghĩa** `Fuuka is the confirmed culprit`.
 
-Trước khi học 4.5, tự trả lời:
+Trước khi học `4-5`, tự trả lời:
 
 1. `evidence` và `proof` khác nhau ở đâu?
 2. `motive` trả lời câu hỏi “ai”, “làm gì” hay “vì sao”?
@@ -1040,7 +1040,7 @@ Subtitle lặp qua nhiều frame được gom thành một cue. Ledger chỉ ghi
 - [ ] Kể đúng bảy beat theo thứ tự.
 - [ ] Làm đúng ít nhất `47/58` điểm Test 0–E; Test F là phần luyện đọc riêng.
 
-## Mở khóa sau Main Quest 4.5
+## Mở khóa sau Main Quest 5 (4-5)
 
 Hoàn thành quest này mở **Side Quest 4-S6 — Alice’s Tea Party 3** và **Chapter 5**. Theo lộ trình side-first của bộ tài liệu:
 

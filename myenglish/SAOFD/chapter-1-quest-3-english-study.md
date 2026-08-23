@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 3
+# SAO: Fractured Daydream — Chapter 1, Main Quest 3 (1-3)
 
 ## The Two Girls
 
-> **Lộ trình học:** [Main Quest 1.2 — Administrator](chapter-1-quest-2-english-study.md) → **Main Quest 1.3 — The Two Girls (đang học)** → [Main Quest 1.4 — A Familiar Assailant](chapter-1-quest-4-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.2 — Administrator](chapter-1-quest-2-english-study.md) → **Main Quest 1.3 — The Two Girls (đang học)** → [Main Quest 1.4 — A Familiar Assailant](chapter-1-quest-4-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.3](https://www.youtube.com/watch?v=kl6Bs-1Mj1E)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.3 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-3-walkthrough/)

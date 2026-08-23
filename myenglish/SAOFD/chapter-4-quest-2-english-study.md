@@ -1,6 +1,6 @@
-# SAO: Fractured Daydream — Chapter 4, Quest 2
+# SAO: Fractured Daydream — Chapter 4, Main Quest 2 (4-2)
 
-> **Lộ trình học:** [Tragedy at the Ruins](chapter-4-quest-1-english-study.md) → **Test Room (đang học)** → [Reunion](chapter-4-quest-3-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Tragedy at the Ruins](chapter-4-quest-1-english-study.md) → **Test Room (đang học)** → [Reunion](chapter-4-quest-3-english-study.md)
 
 ## Test Room
 
@@ -948,7 +948,7 @@ Bạn có thể chuyển bài khi:
 - Hiểu vì sao cuộc tấn công có vẻ được điều phối.
 - Hiểu hậu quả của việc test room bị khóa.
 
-Không cần thuộc 100% mọi từ. Các từ về điều tra, bằng chứng và nghi phạm sẽ tiếp tục lặp lại trong Quest 4.3–4.5.
+Không cần thuộc 100% mọi từ. Các từ về điều tra, bằng chứng và nghi phạm sẽ tiếp tục lặp lại trong Main Quest 3–5 (`4-3` đến `4-5`).
 
 ## Ghi chú về nguồn subtitle
 

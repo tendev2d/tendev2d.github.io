@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 6
+# SAO: Fractured Daydream — Chapter 5, Main Quest 6 (5-6)
 
 ## Contradiction
 
-> **Lộ trình học:** [Side Quest 2 — Number One!](chapter-5-side-quest-2-english-study.md) → **Chapter 5, Quest 6 — Contradiction (đang học)** → [Side Quest 5 — Love of a Treasured Gun](chapter-5-side-quest-5-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 2 — Number One!](chapter-5-side-quest-2-english-study.md) → **Chapter 5, Quest 6 — Contradiction (đang học)** → [Side Quest 5 — Love of a Treasured Gun](chapter-5-side-quest-5-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 6](https://www.youtube.com/watch?v=YG4_Ny3mCKw)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-6 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-6-walkthrough/)

@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 5, SIDE QUEST 7
+# SAO: Fractured Daydream — Chapter 5, Side Quest 7 (5-S7)
 
 ## Alice's Tea Party 5
 
-> **Lộ trình học:** [Quest 10 — Time to Be Brave](chapter-5-quest-10-english-study.md) → **5-S7 — Alice's Tea Party 5 (đang học)** → [Added Quest 1 — How We Do It](added-quest-1-english-study.md). Đây là bài cuối Chapter 5 trước chuỗi Added Quests, tách khỏi paid DLC.
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 10 — Time to Be Brave](chapter-5-quest-10-english-study.md) → **5-S7 — Alice's Tea Party 5 (đang học)** → [Added Quest 1 — How We Do It](added-quest-1-english-study.md). Đây là bài cuối Chapter 5 trước chuỗi Added Quests, tách khỏi paid DLC.
 >
 > Bài học bao phủ trọn event cutscene theo đồng hồ duy nhất của nguồn. Nội dung thoại được diễn giải, không chép transcript; chỉ giữ vài anchor `[SUB]` thật ngắn để đối chiếu hard-sub.
 

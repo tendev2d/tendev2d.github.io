@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 9
+# SAO: Fractured Daydream — Chapter 1, Main Quest 9 (1-9)
 
 ## Galaxia's Door
 
-> **Lộ trình học:** [Main Quest 1.8 — Decoy](chapter-1-quest-8-english-study.md) → **Main Quest 1.9 — Galaxia's Door (đang học)** → [Chapter 2, Main Quest 2.1 — Knights of the Blood Oath](chapter-2-quest-1-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.8 — Decoy](chapter-1-quest-8-english-study.md) → **Main Quest 1.9 — Galaxia's Door (đang học)** → [Chapter 2, Main Quest 2.1 — Knights of the Blood Oath](chapter-2-quest-1-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.9](https://www.youtube.com/watch?v=FpQaQEs6Lf8)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.9 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-9-walkthrough/)

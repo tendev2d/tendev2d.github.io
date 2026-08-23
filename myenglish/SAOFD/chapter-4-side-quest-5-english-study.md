@@ -1,10 +1,10 @@
 # SAO: Fractured Daydream — Chapter 4, Side Quest 5 (4-S5)
 
-> **Lộ trình học:** [Kind Soul](chapter-4-side-quest-2-english-study.md) → **Alice's Tea Party 2 (đang học)** → [Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Kind Soul](chapter-4-side-quest-2-english-study.md) → **Alice's Tea Party 2 (đang học)** → [Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md)
 
 ## Alice's Tea Party 2
 
-> Lộ trình học: [Main Quest 4.4](chapter-4-quest-4-english-study.md) → [4-S2 — Kind Soul](chapter-4-side-quest-2-english-study.md) → **4-S5 (đang học)** → [Main Quest 4.5](chapter-4-quest-5-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.4](chapter-4-quest-4-english-study.md) → [4-S2 — Kind Soul](chapter-4-side-quest-2-english-study.md) → **4-S5 (đang học)** → [Main Quest 5 (4-5)](chapter-4-quest-5-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 37, Chapter 4 Side Quest 5](https://www.youtube.com/watch?v=O_vgJQLp5Ng)
 - Đối chiếu nhiệm vụ: [SAMURAI GAMERS — Side Quest 4-5 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-4-5-walkthrough/)
@@ -706,8 +706,8 @@ Ledger ghi **ý tiếng Việt** và gom subtitle lặp qua nhiều frame thành
 - [ ] Kể đúng bốn beat theo thứ tự.
 - [ ] Làm đúng ít nhất `27/34` điểm Test A–D.
 
-> Học tiếp: [Main Quest 4.5 — Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md).
+> Học tiếp: [Main Quest 5 (4-5) — Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md).
 
-## Học tiếp — Main Quest 4.5
+## Học tiếp — Main Quest 5 (4-5)
 
 Chuyển tới [Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md); giữ kết quả của side quest ở đúng phạm vi: Oberon đã giúp lấy nguyên liệu, nhưng việc đó không giải quyết hồ sơ Fuuka.

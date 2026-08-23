@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 6
+# SAO: Fractured Daydream — Chapter 5, Side Quest 6 (5-S6)
 
 ## Alice's Tea Party 4
 
-> **Lộ trình học:** [Quest 1 — Enemies on the Prairie](chapter-5-quest-1-english-study.md) → **5-S6 (đang học)** → [Quest 2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 1 — Enemies on the Prairie](chapter-5-quest-1-english-study.md) → **5-S6 (đang học)** → [Quest 2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 
@@ -14,7 +14,7 @@
 | Tên upload nguyên văn | `SAO: Fractured Daydream Part 54 PC Story Mode Chapter 5 Side Quest 6 Alice's Tea Party 4` |
 | Ngày đăng | 2025-09-10 |
 | Thời lượng metadata | **16:31** — 991 giây |
-| Bằng chứng UI | Character Select ở 02:32 và Result ở 09:49 cùng hiện `Alice's Tea Party 4`; title có apostrophe sở hữu số ít và số **4**. |
+| Định danh nhiệm vụ | Tên upload và nguồn đối chiếu độc lập cùng map **Chapter 5, Side Quest 6** thành `Alice's Tea Party 4`. Character Select/Result trong clip này không hiện title đủ rõ để dùng làm bằng chứng UI cho tên. |
 
 **Lưu ý nghe:** thoại gốc là tiếng Nhật; phần học bám English hard-sub. `[SUB]` là anchor ngắn đã thấy; `[PARA]` là câu luyện diễn ý, không phải transcript canon. UI/gameplay/Result và lời nhân vật được giữ tách biệt.
 
@@ -26,7 +26,7 @@
 | `tea party` | tii-**PAR**-ti | tiệc trà | `/ˈtiː ˌpɑrti/` |
 | `Alice's Tea Party 4` | **AE**-lị-sị(z)-tii-**PAR**-ti-pho(r) | tiệc trà của Alice, phần 4 | `/ˈælɪsɪz ˈtiː ˌpɑrti fɔr/` |
 
-UI ở Character Select và Result khóa apostrophe trước `s` cùng số `4`. Bài không đổi sang `Alices`, `Alices'` hoặc số La Mã.
+Cách viết `Alice's Tea Party 4` được khóa bằng tên upload và nguồn đối chiếu thứ tự độc lập. Clip này không khóa title bằng Character Select/Result, nên bài không gắn nhãn `[UI]` cho riêng tên quest. Bài vẫn giữ apostrophe sở hữu trước `s`, số Ả Rập **4**, không đổi sang `Alices`, `Alices'` hoặc số La Mã.
 
 > [!TIP]
 > **QUY ƯỚC CÁCH ĐỌC TIẾNG VIỆT:** phần **IN HOA** là nhịp mạnh; dấu `-` chia miếng, dấu `/` ngắt rất ngắn. Âm trong ngoặc là âm cuối chạm nhẹ. Riêng title này, đọc rõ sở hữu `'s` trong `Alice's` và tách `tea party` khỏi số `4`; IPA chỉ để đối chiếu.
@@ -42,12 +42,12 @@ UI ở Character Select và Result khóa apostrophe trước `s` cùng số `4`.
 | Khoảng thời gian | Loại hình | Nội dung nhìn thấy |
 |---|---|---|
 | 00:00–02:31 | Cutscene | Alice chuẩn bị tiệc trà nhưng không thấy Neige; Klein, Argo, Agil và Yuuki tham gia tìm rồi phát hiện cô giữa quái vật. |
-| 02:32–02:44 | Character Select | UI khóa title và chọn Alice cùng party. |
+| 02:32–02:44 | Character Select | Chọn Alice cùng party; màn này không hiện title đủ rõ để khóa tên quest. |
 | 02:45–02:47 | Customize | Trang bị/thuộc tính hiện ngắn. |
 | 02:48 | Loading | Tải chiến trường. |
 | 02:49–09:28 | Gameplay + HUD | Bảo vệ Neige, hạ các đợt quái và hoàn tất objective; `Congratulations!` xuất hiện. |
 | 09:29–09:48 | Gameplay kết thúc / trở về | Đếm ngược, rút HUD và chuyển sang kết quả. |
-| 09:49–10:06 | Result | `Quest Clear`, điểm, vật phẩm và rank của **Alice's Tea Party 4**. |
+| 09:49–10:06 | Result | `Quest Clear`, điểm, vật phẩm và rank của run; màn này không hiện lại title. |
 | 10:07–10:18 | Loading | Rời bảng Result. |
 | 10:19–16:30 | Cutscene | Mọi người kể thất bại của mình để động viên Neige; cô lấy lại dũng khí, rồi cả nhóm chạy đi chi viện Kirito. |
 | 16:31 | Hết clip | Khung cuối. |
@@ -168,12 +168,12 @@ Phần trong `[ ]` là ô thay; câu `[PARA]` dùng để luyện.
 
 ## Beat 2 — UI và objective bảo vệ Neige (`02:32–10:18`)
 
-- Character Select khóa title; Customize/loading dẫn vào gameplay objective bảo vệ Neige.
+- Character Select khóa lựa chọn Alice/party; Customize/loading dẫn vào gameplay objective bảo vệ Neige. Tên quest được đối chiếu từ source title và guide, không suy từ màn này.
 - Party dọn quái, nhận `Congratulations!`, countdown và Result; loading đưa trở lại cutscene.
 
 ### Câu chuyện – phản ứng – logic — Beat 2 — UI và objective bảo vệ Neige (`02:32–10:18`)
 
-- **Mạch mode:** Character Select khóa exact title, Customize/loading mở run bảo vệ Neige; gameplay kết qua Congratulations, countdown, Result rồi loading.
+- **Mạch mode:** Character Select khóa Alice/party, Customize/loading mở run bảo vệ Neige; gameplay kết qua Congratulations, countdown, Result rồi loading. Hai màn UI này không khóa exact title trong clip.
 - **Phản ứng:** Cảm xúc hậu trận của Neige chỉ bắt đầu khi cutscene trở lại ở Beat 3. Score, item và rank trên Result không phải lời cô nói hay thước đo tâm lý.
 - **Logic/evidence:** Objective và `Quest Clear` chứng minh run được hoàn tất. Chúng không chứng minh party/loadout đó là đội hình canon hoặc biến performance của uploader thành sự kiện story cố định.
 - **Anchor boundary:** `[UI] Alice's Tea Party 4`, `[UI] Congratulations!` và `[UI] Quest Clear` là nhãn ngắn; bài không chép HUD lặp hoặc damage log.
@@ -187,7 +187,7 @@ Phần trong `[ ]` là ô thay; câu `[PARA]` dùng để luyện.
 
 ### Tự kiểm tra
 
-1. Hai màn UI nào khóa exact title?
+1. Hai nguồn nào khóa identity/order `5-S6 — Alice's Tea Party 4`, và vì sao không dùng Character Select/Result của clip làm bằng chứng title?
 2. Run score/rank có phải canon về trạng thái tinh thần Neige không?
 
 ## Beat 3 — Vì sao Neige đi một mình (`10:19–11:24`)
@@ -367,7 +367,7 @@ Phần trong `[ ]` là ô thay; câu `[PARA]` dùng để luyện.
 
 | Mệnh đề | Nhãn | Căn cứ / giới hạn |
 |---|---|---|
-| UI khóa `Alice's Tea Party 4` ở Character Select và Result. | **Fact [UI]** | Giữ apostrophe và số 4. |
+| Tên upload và guide độc lập cùng map `5-S6` thành `Alice's Tea Party 4`. | **Fact [source/order]** | Giữ apostrophe và số 4; không nâng thành Fact `[UI]` từ clip này. |
 | Neige nói cô đi một mình vì không muốn nhóm thấy mình khóc. | **Fact [SUB]** | Lời nhân vật trong cutscene kết. |
 | Mọi người đều từng thất bại và dùng trải nghiệm để động viên cô. | **Fact [SUB]** | Các anecdote được kể cụ thể. |
 | Những câu chuyện đã xóa hoàn toàn mọi sợ hãi của Neige. | **Inference quá mức** | Cô cười và bình tĩnh hơn nhưng vẫn nói tim dao động. |
@@ -403,7 +403,7 @@ Ghép `pancake cháy`, `đặt nhầm hàng/cà phê`, `thừa một số 0`, `q
 ### Test E — Fact/Unknown
 
 1. Neige đã hết hoàn toàn sợ hãi.
-2. UI xác nhận title ở hai màn.
+2. Tên upload và guide độc lập xác nhận identity/order; Character Select/Result của clip không hiện title đủ rõ.
 3. Kirito yêu cầu backup.
 4. Tea party chắc chắn diễn ra ngay sau fade.
 
@@ -477,7 +477,7 @@ Ghép `pancake cháy`, `đặt nhầm hàng/cà phê`, `thừa một số 0`, `q
 - Tên upload không có cụm `No Commentary`, nhưng clip thực tế là bản ghi story/gameplay với hard-sub và không có lời bình của uploader; bằng chứng nội dung dựa trên hình, không suy từ nhãn upload.
 - `do your homework` trong ngữ cảnh Argo mang nghĩa “nghiên cứu/chuẩn bị trước”, không chỉ là làm bài tập ở trường.
 - Anchor là mẩu ngắn dùng định vị; không tái tạo đoạn thoại dài.
-- Mốc có thể lệch khoảng một giây do OCR 1 khung/giây; title và ranh giới mode được kiểm tra trực tiếp trên UI.
+- Mốc có thể lệch khoảng một giây do kiểm tra theo khung hình; ranh giới mode được kiểm tra trực tiếp trên UI, còn title dựa vào tên nguồn và guide đối chiếu.
 
 ## Lịch ôn `0 → 1 → 3 → 7 → 14`
 
@@ -510,4 +510,5 @@ Ghép `pancake cháy`, `đặt nhầm hàng/cà phê`, `thừa một số 0`, `q
 
 ## Học tiếp
 
-Tiếp tục route: [Quest 2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md).
+> [!NOTE]
+> Đây là nhánh tùy chọn theo mốc mở khóa. Khi quay lại tuyến chính, tiếp tục [Main Quest 2 (5-2) — Fuuka's Pursuer](chapter-5-quest-2-english-study.md); vị trí của bài này trong Quest Select vẫn là `5-S6`.

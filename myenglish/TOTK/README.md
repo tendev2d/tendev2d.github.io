@@ -66,7 +66,7 @@ Bộ tài liệu này biến cấu trúc thế giới mở ba tầng của **Tea
 - `Story` [TOTK English Study — Sidon of the Zora, Water Temple, and Sidon's Vow](01-main-story-and-memories/main-12-sidon-of-the-zora-water-temple-and-sidons-vow-english-study.md)
 - `Story` [TOTK English Study — Riju of Gerudo Town, Desert Defense, and the Red Pillars](01-main-story-and-memories/main-13-riju-of-gerudo-town-desert-defense-and-red-pillars-english-study.md)
 - `Story` [TOTK English Study — Lightning Temple, Queen Gibdo, and Riju's Vow](01-main-story-and-memories/main-14-lightning-temple-queen-gibdo-and-rijus-vow-english-study.md)
-- `Story` [TOTK English Study — Regional Phenomena and Crisis at Hyrule Castle Conclusion](01-main-story-and-memories/main-15-regional-phenomena-and-crisis-at-hyrule-castle-conclusion-english-study.md)
+- `Story` [TOTK English Study — Regional Phenomena Complete; Crisis at Hyrule Castle Continues](01-main-story-and-memories/main-15-regional-phenomena-and-crisis-at-hyrule-castle-conclusion-english-study.md)
 - `Story` [TOTK English Study — Find the Fifth Sage and Secret of the Ring Ruins](01-main-story-and-memories/main-16-find-the-fifth-sage-and-secret-of-the-ring-ruins-english-study.md)
 - `Story` [TOTK English Study — Thunderhead Isles, Dragonhead Island, and the Zonai Relic](01-main-story-and-memories/main-17-thunderhead-isles-dragonhead-island-and-the-zonai-relic-english-study.md)
 - `Story` [TOTK English Study — Guidance from Ages Past, Construct Factory, and Spirit Temple](01-main-story-and-memories/main-18-guidance-from-ages-past-construct-factory-and-spirit-temple-english-study.md)

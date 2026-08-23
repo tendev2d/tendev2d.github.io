@@ -2,7 +2,7 @@
 
 ## "DEAD" Indicators
 
-> Lộ trình học: [2-S3 — Alice's Discipline](chapter-2-side-quest-3-english-study.md) → **2-4 (đang học)** → [2-5 — Cardinal](chapter-2-quest-5-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-S3 — Alice's Discipline](chapter-2-side-quest-3-english-study.md) → **2-4 (đang học)** → [2-5 — Cardinal](chapter-2-quest-5-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 14, Chapter 2 Quest 4](https://www.youtube.com/watch?v=0FNZvgn6KIM)
 - Đối chiếu objective/thứ tự: [SAMURAI GAMERS — Main Quest 2-4 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-2-4-walkthrough/)

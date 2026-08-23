@@ -2,7 +2,7 @@
 
 ## Knights of the Blood Oath
 
-> Lộ trình: [1-9 — Galaxia's Door](chapter-1-quest-9-english-study.md) → **2-1 — Knights of the Blood Oath (đang học)** → [2-2 — Unease](chapter-2-quest-2-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [1-9 — Galaxia's Door](chapter-1-quest-9-english-study.md) → **2-1 — Knights of the Blood Oath (đang học)** → [2-2 — Unease](chapter-2-quest-2-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 11, Chapter 2 Quest 1](https://www.youtube.com/watch?v=4zPHBMMWccI)
 - Đối chiếu objective/thứ tự: [SAMURAI GAMERS — Main Quest 2-1 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-2-1-walkthrough/)

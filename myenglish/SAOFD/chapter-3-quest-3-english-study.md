@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, QUEST 3
+# SAO: Fractured Daydream — Chapter 3, Main Quest 3 (3-3)
 
 ## Forest of Wandering
 
-> Lộ trình học: [Side Quest 3.1 — The Two's Relationship](chapter-3-side-quest-1-english-study.md) → **Main Quest 3.3 (đang học)** → [Main Quest 3.4 — Maze](chapter-3-quest-4-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Side Quest 3.1 — The Two's Relationship](chapter-3-side-quest-1-english-study.md) → **Main Quest 3.3 (đang học)** → [Main Quest 3.4 — Maze](chapter-3-quest-4-english-study.md)
 
 - Video hard-sub chính: [Trophygamers — Forest of Wandering](https://www.youtube.com/watch?v=JZ6JfefSXCA)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Main Quest 3.3 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-3-3-walkthrough/)

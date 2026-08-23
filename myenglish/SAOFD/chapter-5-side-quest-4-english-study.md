@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 4
+# SAO: Fractured Daydream — Chapter 5, Side Quest 4 (5-S4)
 
 ## Memorable Meals
 
-> **Lộ trình học:** [Side Quest 1 — A Special Song for You](chapter-5-side-quest-1-english-study.md) → **5-S4 (đang học)** → [Quest 4 — Fuuka's Record](chapter-5-quest-4-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 1 — A Special Song for You](chapter-5-side-quest-1-english-study.md) → **5-S4 (đang học)** → [Quest 4 — Fuuka's Record](chapter-5-quest-4-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 

@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 5
+# SAO: Fractured Daydream — Chapter 5, Side Quest 5 (5-S5)
 
 ## Love of a Treasured Gun
 
-> **Lộ trình học:** [Quest 6 — Contradiction](chapter-5-quest-6-english-study.md) → **5-S5 (đang học)** → [Quest 7 — An Ideal Grim Reaper](chapter-5-quest-7-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 6 — Contradiction](chapter-5-quest-6-english-study.md) → **5-S5 (đang học)** → [Quest 7 — An Ideal Grim Reaper](chapter-5-quest-7-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 

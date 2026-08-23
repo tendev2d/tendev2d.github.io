@@ -1,6 +1,6 @@
-# SAO: Fractured Daydream — Chapter 4, Quest 3
+# SAO: Fractured Daydream — Chapter 4, Main Quest 3 (4-3)
 
-> **Lộ trình học:** [Test Room](chapter-4-quest-2-english-study.md) → **Reunion (đang học)** → [Administrator and Uniforms](chapter-4-side-quest-1-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Test Room](chapter-4-quest-2-english-study.md) → **Reunion (đang học)** → [Administrator and Uniforms](chapter-4-side-quest-1-english-study.md)
 
 ## Reunion
 

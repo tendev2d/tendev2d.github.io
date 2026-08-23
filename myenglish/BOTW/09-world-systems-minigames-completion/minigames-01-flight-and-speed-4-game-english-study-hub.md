@@ -4,26 +4,26 @@
 
 - **S1 — [Zelda Wiki — Mini-Game](https://zeldawiki.wiki/wiki/Mini-Game):** nguồn chính để khóa phạm vi và terminology; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **S2 — [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94):** video English UI/no commentary để đối chiếu hoạt động và đoạn hình; đoạn hình chứng minh hoạt động; câu luyện không phải subtitle hay transcript.
-- **S3 — [Flight Range](https://zeldawiki.wiki/wiki/Flight_Range_%28Mini-Game%29):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S4 — [Paraglider Course](https://zeldawiki.wiki/wiki/Paraglider_Course):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S3 — [Teba's Flight Range — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Flight_Range_%28Mini-Game%29):** nguồn đối chiếu điều kiện và reward; `Teba's Flight Range` là tên tra cứu chuẩn của activity, còn `Flight Range` cũng là tên địa điểm. Không tự coi tên tra cứu là `EXACT UI` nếu chưa có frame trực tiếp; không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S4 — [Mimo's Ring Course — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Paraglider_Course):** nguồn đối chiếu điều kiện và reward; `Mimo's Ring Course` là tên tra cứu chuẩn, không tự coi là một `EXACT UI` banner nếu chưa có frame trực tiếp. Không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **UI/audio:** English Switch UI trong phạm vi các nguồn; video nguồn dùng English UI và không lời bình. English game voice, audio language, subtitle và transcript không được mặc định từ câu luyện.
 - **Version/scope:** base game theo catalog/source hiện dẫn; reward có thể phụ thuộc first-clear, inventory, record hoặc game version nên phải đọc state hiện tại.
 - **Cấu trúc học:** bốn activity là bốn lượt độc lập; không ghép chúng thành một tuyến sự kiện chung.
 
 ## Tên bài — taxonomy và phạm vi activity
 
-- `Flight and Speed — 4 Minigames` gom đúng bốn activity trong ledger: Bird-Man Research Study; Flight Range; Foot Race; Paraglider Course.
+- `Flight and Speed — 4 Minigames` gom đúng bốn activity trong ledger: Bird-Man Research Study; Teba's Flight Range; Footrace; Mimo's Ring Course.
 - Phần trước dấu gạch ngang nêu family kỹ năng; “4” là count của hub, không phải stage count trong từng game.
-- Tên/reference label giữ đúng nguồn; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
+- Các tên trong ledger là **tên tra cứu** để tìm đúng hoạt động. Chúng không tự mang nhãn `EXACT UI` hoặc Adventure Log title nếu bài chưa có frame trực tiếp; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
 
 ## Ledger hoạt động — 4/4
 
 | Minigame | Nơi / điểm mở | Mục tiêu | Đoạn nguồn |
 |---|---|---|---|
 | Bird-Man Research Study | Ridgeland Tower | Lướt càng xa càng tốt trước khi chạm đất | 17:19–20:09 |
-| Flight Range | Flight Range | Bắn các bia khi đang bay bằng paraglider | 02:45–05:10 |
-| Foot Race | Footrace Check-In | Chạy từ vạch xuất phát đến đích trong thời gian ngắn nhất | 20:10–22:53 |
-| Paraglider Course | Eventide Island sau Korgu Chideh Shrine | Bay qua tối đa 70 vòng; lượt dừng khi chạm đất hoặc qua đủ 70, không có đồng hồ | 43:02–hết video |
+| Teba's Flight Range | Flight Range | Bắn các bia khi đang bay bằng paraglider | 02:45–05:10 |
+| Footrace | Footrace Check-In | Chạy từ vạch xuất phát đến đích trong thời gian ngắn nhất | 20:10–22:53 |
+| Mimo's Ring Course | Eventide Island sau Korgu Chideh Shrine | Bay qua tối đa 70 vòng; lượt dừng khi chạm đất hoặc qua đủ 70, không có đồng hồ | 43:02–hết video |
 
 ## Từ và cụm trọng tâm
 
@@ -137,10 +137,10 @@
 
 ---
 
-## Activity 2/4 — Flight Range
+## Activity 2/4 — Teba's Flight Range
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Flight Range](https://zeldawiki.wiki/wiki/Flight_Range_%28Mini-Game%29) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Teba's Flight Range` là tên tra cứu của activity; `Flight Range` trong bảng Access là địa điểm. Không tự gọi tên tra cứu này là `EXACT UI` hoặc Adventure Log title nếu chưa có frame chứng minh.
+- **Nguồn activity:** [Teba's Flight Range — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Flight_Range_%28Mini-Game%29) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -164,7 +164,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Flight Range diễn ra tại Flight Range; mục tiêu đã khóa là Bắn các bia khi đang bay bằng paraglider.
+- **Mốc kiểm chứng:** Teba's Flight Range diễn ra tại địa điểm Flight Range; mục tiêu đã khóa là Bắn các bia khi đang bay bằng paraglider.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -188,9 +188,9 @@
 
 ---
 
-## Activity 3/4 — Foot Race
+## Activity 3/4 — Footrace
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
+- **Naming boundary:** `Footrace` là tên tra cứu của activity; không tự gọi đây là `EXACT UI` hoặc Adventure Log title nếu source không chứng minh vậy.
 - **Nguồn activity:** [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94) khóa đoạn hình 20:10–22:53; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** direct English video window `20:10–22:53`; video không lời bình, nhưng câu luyện dưới đây vẫn không phải subtitle hay transcript.
 
@@ -215,7 +215,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Foot Race diễn ra tại Footrace Check-In; mục tiêu đã khóa là Chạy từ vạch xuất phát đến đích trong thời gian ngắn nhất.
+- **Mốc kiểm chứng:** Footrace diễn ra tại Footrace Check-In; mục tiêu đã khóa là Chạy từ vạch xuất phát đến đích trong thời gian ngắn nhất.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -239,10 +239,10 @@
 
 ---
 
-## Activity 4/4 — Paraglider Course
+## Activity 4/4 — Mimo's Ring Course
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Paraglider Course](https://zeldawiki.wiki/wiki/Paraglider_Course) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Mimo's Ring Course` là tên tra cứu của activity; không tự gọi đây là `EXACT UI` hoặc Adventure Log title nếu chưa có frame chứng minh.
+- **Nguồn activity:** [Mimo's Ring Course — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Paraglider_Course) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -266,7 +266,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Paraglider Course diễn ra tại Eventide Island sau Korgu Chideh Shrine; mục tiêu đã khóa là Bay qua tối đa 70 vòng; lượt dừng khi chạm đất hoặc qua đủ 70, không có đồng hồ.
+- **Mốc kiểm chứng:** Mimo's Ring Course diễn ra tại Eventide Island sau Korgu Chideh Shrine; mục tiêu đã khóa là Bay qua tối đa 70 vòng; lượt dừng khi chạm đất hoặc qua đủ 70, không có đồng hồ.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -278,7 +278,7 @@
 
 ### Tự kiểm tra
 
-1. Shrine nào trên Eventide Island phải hoàn thành trước khi trả phí vào Paraglider Course?
+1. Shrine nào trên Eventide Island phải hoàn thành trước khi trả phí vào Mimo's Ring Course?
 2. Không có đồng hồ: hai sự kiện nào làm lượt bay dừng lại?
 3. Qua 32 vòng nhận màu Rupee nào, và phải đạt từ bao nhiêu vòng mới lên Gold?
 
@@ -294,26 +294,26 @@
 
 ### Test A — Distance và target count
 
-So sánh cách Bird-Man Research Study chốt distance lúc chạm đất với cách Flight Range đếm trên tổng 20 bia xanh.
+So sánh cách Bird-Man Research Study chốt distance lúc chạm đất với cách Teba's Flight Range đếm trên tổng 20 bia xanh.
 
 ### Test B — Đua có đối thủ và course không đồng hồ
 
-Foot Race yêu cầu tới cờ trước Konba; Paraglider Course kết thúc theo hai sự kiện nào thay vì một timer?
+Footrace yêu cầu tới cờ trước Konba; Mimo's Ring Course kết thúc theo hai sự kiện nào thay vì một timer?
 
 ### Test C — Ba kiểu replay
 
-Lập bảng phí chơi lại cho Bird-Man, Flight Range, Foot Race và Paraglider Course; chỉ ra card miễn phí.
+Lập bảng phí chơi lại cho Bird-Man Research Study, Teba's Flight Range, Footrace và Mimo's Ring Course; chỉ ra card miễn phí.
 
 ### Test D — Tính reward thật
 
-Một lượt Eventide qua 32 vòng nhận gì; một lượt Flight Range cần đọc đại lượng nào trước khi biết Rupee?
+Một lượt Mimo's Ring Course qua 32 vòng nhận gì; một lượt Teba's Flight Range cần đọc đại lượng nào trước khi biết Rupee?
 
 ## Đáp án
 
-- **A:** Bird-Man đo distance tại lần chạm đất đầu; Flight Range chấm số bia phá được trong tổng 20 bia xanh.
-- **B:** Foot Race kết thúc ở cờ và phải tới trước Konba; Paraglider Course dừng khi chạm đất hoặc qua đủ 70 vòng, không dùng đồng hồ.
-- **C:** Bird-Man 20 Rupee; Flight Range miễn phí; Foot Race 20 Rupee; Paraglider Course 20 Rupee.
-- **D:** 32 vòng thuộc dải 30–49 nên nhận Silver Rupee; Flight Range phải đọc tổng bia trúng.
+- **A:** Bird-Man Research Study đo distance tại lần chạm đất đầu; Teba's Flight Range chấm số bia phá được trong tổng 20 bia xanh.
+- **B:** Footrace kết thúc ở cờ và phải tới trước Konba; Mimo's Ring Course dừng khi chạm đất hoặc qua đủ 70 vòng, không dùng đồng hồ.
+- **C:** Bird-Man Research Study 20 Rupee; Teba's Flight Range miễn phí; Footrace 20 Rupee; Mimo's Ring Course 20 Rupee.
+- **D:** 32 vòng thuộc dải 30–49 nên nhận Silver Rupee; Teba's Flight Range phải đọc tổng bia trúng.
 
 ## Lịch ôn 0 → 1 → 3 → 7 → 14
 
@@ -330,19 +330,19 @@ Một lượt Eventide qua 32 vòng nhận gì; một lượt Flight Range cần
 - [ ] Bird-Man Research Study — Ridgeland Tower; Trả 20 Rupee, rồi nhảy từ Ridgeland Tower để tham gia nghiên cứu khoảng cách của tôi.
 - [ ] Bird-Man Research Study — Chuyến bay kết thúc ở lần đầu chạm đất, và điểm hạ cánh đó chốt quãng đường được đo.
 - [ ] Bird-Man Research Study — Tôi sẽ ghi quãng đường và trả thưởng Rupee tương ứng; lượt khác tốn 20 Rupee.
-- [ ] Flight Range — Flight Range; Sau khi Vah Medoh yên ổn, tôi mở thử thách đếm bia miễn phí này tại Flight Range.
-- [ ] Flight Range — Tôi đếm ngược trong lúc bạn phá nhiều nhất có thể trong tổng 20 bia xanh.
-- [ ] Flight Range — Tôi chấm tổng bia, trả mức Rupee tương ứng và cho bạn chơi lại không mất phí.
-- [ ] Foot Race — Footrace Check-In; Đặt 20 Rupee rồi gặp tôi ở vạch xuất phát đã đánh dấu.
-- [ ] Foot Race — Chạy từ vạch đó tới cờ đích và chạm tới trước tôi.
-- [ ] Foot Race — Kết quả ở đích quyết định phần Rupee; trả thêm 20 khi bạn muốn đấu lại.
-- [ ] Paraglider Course — Eventide Island sau Korgu Chideh Shrine; Sau khi hoàn thành Korgu Chideh Shrine, trả 20 Rupee cho một lượt có tối đa 70 vòng.
-- [ ] Paraglider Course — Không có đồng hồ; lượt dừng khi chạm đất hoặc sau khi qua đủ 70 vòng.
-- [ ] Paraglider Course — Dưới 20 vòng không có thưởng; 20–24 nhận Red, 25–29 Purple, 30–49 Silver, và từ 50 nhận Gold; chơi lại tốn 20.
+- [ ] Teba's Flight Range — Flight Range; Sau khi Vah Medoh yên ổn, tôi mở thử thách đếm bia miễn phí này tại Flight Range.
+- [ ] Teba's Flight Range — Tôi đếm ngược trong lúc bạn phá nhiều nhất có thể trong tổng 20 bia xanh.
+- [ ] Teba's Flight Range — Tôi chấm tổng bia, trả mức Rupee tương ứng và cho bạn chơi lại không mất phí.
+- [ ] Footrace — Footrace Check-In; Đặt 20 Rupee rồi gặp tôi ở vạch xuất phát đã đánh dấu.
+- [ ] Footrace — Chạy từ vạch đó tới cờ đích và chạm tới trước tôi.
+- [ ] Footrace — Kết quả ở đích quyết định phần Rupee; trả thêm 20 khi bạn muốn đấu lại.
+- [ ] Mimo's Ring Course — Eventide Island sau Korgu Chideh Shrine; Sau khi hoàn thành Korgu Chideh Shrine, trả 20 Rupee cho một lượt có tối đa 70 vòng.
+- [ ] Mimo's Ring Course — Không có đồng hồ; lượt dừng khi chạm đất hoặc sau khi qua đủ 70 vòng.
+- [ ] Mimo's Ring Course — Dưới 20 vòng không có thưởng; 20–24 nhận Red, 25–29 Purple, 30–49 Silver, và từ 50 nhận Gold; chơi lại tốn 20.
 - [ ] Tôi phân biệt first-ground-contact với target count.
-- [ ] Tôi nhớ Flight Range là replay miễn phí duy nhất trong bốn card.
+- [ ] Tôi nhớ Teba's Flight Range là replay miễn phí duy nhất trong bốn card.
 - [ ] Tôi tính đúng 32 rings thành Silver Rupee.
-- [ ] Tôi không gắn timer giả cho Paraglider Course.
+- [ ] Tôi không gắn timer giả cho Mimo's Ring Course.
 
 ## Đi tiếp
 

@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, SIDE QUEST 1
+# SAO: Fractured Daydream — Chapter 3, Side Quest 1 (3-S1)
 
 ## The Two's Relationship
 
-> Lộ trình học: [Main Quest 3.2 — The Girl in the Cage](chapter-3-quest-2-english-study.md) → **Side Quest 3.1 (đang học)** → [Main Quest 3.3 — Forest of Wandering](chapter-3-quest-3-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.2 — The Girl in the Cage](chapter-3-quest-2-english-study.md) → **Side Quest 3.1 (đang học)** → [Main Quest 3.3 — Forest of Wandering](chapter-3-quest-3-english-study.md)
 
 - Video hard-sub chính: [Trophygamers — The Two's Relationship](https://www.youtube.com/watch?v=6t0ojym9WiU)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Side Quest 3.1 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-3-1-walkthrough/)

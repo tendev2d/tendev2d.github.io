@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 4
+# SAO: Fractured Daydream — Chapter 1, Main Quest 4 (1-4)
 
 ## A Familiar Assailant
 
-> **Lộ trình học:** [Main Quest 1.3 — The Two Girls](chapter-1-quest-3-english-study.md) → **Main Quest 1.4 — A Familiar Assailant (đang học)** → [Side Quest 1.1 — Fuuka and Neige](chapter-1-side-quest-1-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.3 — The Two Girls](chapter-1-quest-3-english-study.md) → **Main Quest 1.4 — A Familiar Assailant (đang học)** → [Side Quest 1.1 — Fuuka and Neige](chapter-1-side-quest-1-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.4](https://www.youtube.com/watch?v=2dONirSYDPA)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.4 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-4-walkthrough/)

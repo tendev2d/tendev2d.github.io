@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 5
+# SAO: Fractured Daydream — Chapter 1, Main Quest 5 (1-5)
 
 ## LLENN
 
-> **Lộ trình học:** [Side Quest 1.1 — Fuuka and Neige](chapter-1-side-quest-1-english-study.md) → **Main Quest 1.5 — LLENN (đang học)** → [Main Quest 1.6 — Eugeo and LLENN](chapter-1-quest-6-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 1.1 — Fuuka and Neige](chapter-1-side-quest-1-english-study.md) → **Main Quest 1.5 — LLENN (đang học)** → [Main Quest 1.6 — Eugeo and LLENN](chapter-1-quest-6-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.5](https://www.youtube.com/watch?v=DUgCvH3Nfbk)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.5 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-5-walkthrough/)

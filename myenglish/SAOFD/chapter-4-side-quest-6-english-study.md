@@ -1,10 +1,10 @@
 # SAO: Fractured Daydream — Chapter 4, Side Quest 6 (4-S6)
 
-> **Lộ trình học:** [Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md) → **Alice's Tea Party 3 (đang học)** → [Enemies on the Prairie](chapter-5-quest-1-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Accusations Behind Closed Doors](chapter-4-quest-5-english-study.md) → **Alice's Tea Party 3 (đang học)** → [Enemies on the Prairie](chapter-5-quest-1-english-study.md)
 
 ## Alice's Tea Party 3
 
-> Lộ trình học: [Main Quest 4.5](chapter-4-quest-5-english-study.md) → **4-S6 (đang học)** → Main Quest 5.1 — *Enemies on the Prairie*
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 5 (4-5)](chapter-4-quest-5-english-study.md) → **4-S6 (đang học)** → Main Quest 1 (5-1) — *Enemies on the Prairie*
 
 - Video học: [Anime Gaming Zero — Part 38, Chapter 4 Side Quest 6](https://www.youtube.com/watch?v=6Lf5Rr3m19U)
 - Đối chiếu nhiệm vụ: [SAMURAI GAMERS — Side Quest 4-6 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-4-6-walkthrough/)

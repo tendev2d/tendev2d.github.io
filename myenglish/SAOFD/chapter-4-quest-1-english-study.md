@@ -1,6 +1,6 @@
-# SAO: Fractured Daydream — Chapter 4, Quest 1
+# SAO: Fractured Daydream — Chapter 4, Main Quest 1 (4-1)
 
-> **Lộ trình học:** [The Villains' Performance](chapter-3-side-quest-2-english-study.md) → **Tragedy at the Ruins (đang học)** → [Test Room](chapter-4-quest-2-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [The Villains' Performance](chapter-3-side-quest-2-english-study.md) → **Tragedy at the Ruins (đang học)** → [Test Room](chapter-4-quest-2-english-study.md)
 
 ## Tragedy at the Ruins
 

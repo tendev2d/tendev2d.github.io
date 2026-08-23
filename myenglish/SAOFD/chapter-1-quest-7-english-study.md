@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 7
+# SAO: Fractured Daydream — Chapter 1, Main Quest 7 (1-7)
 
 ## Reinforcements
 
-> **Lộ trình học:** [Main Quest 1.6 — Eugeo and LLENN](chapter-1-quest-6-english-study.md) → **Main Quest 1.7 — Reinforcements (đang học)** → [Main Quest 1.8 — Decoy](chapter-1-quest-8-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.6 — Eugeo and LLENN](chapter-1-quest-6-english-study.md) → **Main Quest 1.7 — Reinforcements (đang học)** → [Main Quest 1.8 — Decoy](chapter-1-quest-8-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.7](https://www.youtube.com/watch?v=H316YjZsR5A)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.7 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-7-walkthrough/)

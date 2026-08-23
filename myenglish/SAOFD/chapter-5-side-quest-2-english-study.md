@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 2
+# SAO: Fractured Daydream — Chapter 5, Side Quest 2 (5-S2)
 
 ## Number One!
 
-> **Lộ trình học:** [Quest 5 — Junk Data](chapter-5-quest-5-english-study.md) → **5-S2 (đang học)** → [Quest 6 — Contradiction](chapter-5-quest-6-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 5 — Junk Data](chapter-5-quest-5-english-study.md) → **5-S2 (đang học)** → [Quest 6 — Contradiction](chapter-5-quest-6-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 

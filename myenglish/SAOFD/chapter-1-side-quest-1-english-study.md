@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Side Quest 1
+# SAO: Fractured Daydream — Chapter 1, Side Quest 1 (1-S1)
 
 ## Fuuka and Neige
 
-> **Lộ trình học:** [Main Quest 1.4 — A Familiar Assailant](chapter-1-quest-4-english-study.md) → **Side Quest 1-S1 — Fuuka and Neige (đang học)** → [Main Quest 1.5 — LLENN](chapter-1-quest-5-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.4 — A Familiar Assailant](chapter-1-quest-4-english-study.md) → **Side Quest 1-S1 — Fuuka and Neige (đang học)** → [Main Quest 1.5 — LLENN](chapter-1-quest-5-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Side Quest 1-S1](https://www.youtube.com/watch?v=4CxJBxQEQIg)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Side Quest 1-S1 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-1-1-walkthrough/)

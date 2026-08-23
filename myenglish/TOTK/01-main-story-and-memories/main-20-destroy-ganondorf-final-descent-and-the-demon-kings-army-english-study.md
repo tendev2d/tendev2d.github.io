@@ -2,11 +2,12 @@
 
 ## Nguồn học và giới hạn
 
-- **Phạm vi:** briefing cuối ở Lookout Landing, Hyrule Castle Chasm, Gloom's Approach, Forgotten Foundation, Imprisoning Chamber, Gloom's Lair, Demon King's Army và đoạn Ganondorf phục hồi cơ thể ngay trước duel. Bài không đi vào health bar đầu tiên; main21 bắt đầu đúng tại `22:15:20`.
+- **Phạm vi:** continuity bridge từ report Mineru cho Purah tới briefing cuối ở Lookout Landing, rồi Hyrule Castle Chasm, Gloom's Approach, Forgotten Foundation, Imprisoning Chamber, Gloom's Lair, Demon King's Army và đoạn Ganondorf phục hồi cơ thể ngay trước duel. Bài không đi vào health bar đầu tiên; main21 bắt đầu đúng tại `22:15:20`.
 - **Nguồn hình/âm thanh chính:** [BeardBear — Zelda: Tears of the Kingdom - Full Game Walkthrough](https://www.youtube.com/watch?v=Iz2TY7_Q27M), uploader **BeardBear**, thời lượng **22:54:05**. Video dùng **English UI**, **English game voice/audio language**, không có lời bình.
 - **Phạm vi video tham chiếu:** mốc chapter rộng ban đầu `21:52:35–22:54:05` được giữ để đối chiếu. Bài chỉ dùng bảy đoạn cảnh `21:52:40–22:15:20`; khoảng `21:54:50–21:57:30` là prep/fast-travel do người chơi chọn, không được biến thành đoạn truyện.
 - **Cách khóa mốc:** đã đối chiếu khung hình trực tiếp theo bước 10 giây, sai số ±10 giây. Mốc khóa UI, nhân vật, địa điểm và chuyển trạng thái nhìn thấy; chưa khóa mốc chính xác cho từng câu thoại. Phụ đề tự động không được dùng như transcript.
 - **Nguồn quest/story chính:** [Zelda Wiki — Destroy Ganondorf](https://zeldawiki.wiki/wiki/Destroy_Ganondorf). Trang khóa Purah/Josha lead, các landmark, sự biến mất của sage avatars, bốn đợt quân, năm boss quay lại và Ganondorf introduction; không khóa build hay đường chạy của người chơi.
+- **Nguồn bridge trước final briefing:** [Zelda Wiki — Crisis at Hyrule Castle](https://zeldawiki.wiki/wiki/Crisis_at_Hyrule_Castle). Trang khóa việc report Mineru về Purah sau `Guidance from Ages Past`, trạng thái Complete đồng thời của `Find the Fifth Sage` và `Crisis at Hyrule Castle`, cùng nhánh `Destroy Ganondorf` bắt đầu ngay nếu Link đã có Master Sword. Bridge này nằm trước clock chính của bài, không được giả thành một beat trong footage `21:52:40–22:15:20`.
 - **Nguồn encounter:** [Zelda Wiki — Demon King's Army](https://zeldawiki.wiki/wiki/Demon_King%27s_Army). Trang khóa thành phần bốn wave và tên event; thứ tự đánh từng mục tiêu trong mỗi wave vẫn phụ thuộc lượt chơi.
 - **Nguồn danh mục quest:** [Zelda Wiki — Main Quests in Tears of the Kingdom](https://zeldawiki.wiki/wiki/Main_Quests_in_Tears_of_the_Kingdom). Dùng để đối chiếu exact title `Destroy Ganondorf`, không thay video làm bằng chứng cho cảnh.
 - **Phiên bản:** Nintendo Switch tiêu chuẩn v1.4.3 theo [Nintendo Support — update history](https://en-americas-support.nintendo.com/app/answers/detail/a_id/61936/). Trang update chỉ xác nhận phiên bản/phạm vi phiên bản, không chứng minh story, route hoặc dialogue.
@@ -19,10 +20,13 @@
 
 | Cụm truy hồi | Đọc Việt | Điều phải nhớ |
 |---|---|---|
+| `report Mineru to Purah` | ri-po(r)t mi-ne-ru tu piu-rờ | sau Guidance, report này đóng `Find the Fifth Sage` và `Crisis at Hyrule Castle` |
 | `recover the restored blade` | ri-cấ-vờr đờ ri-x-to(r)-đ blâi-đ | main19 kết thúc với Master Sword trong inventory của save |
 | `separate story order from playback order` | xe-pờ-râi(t) x-to-ri o(r)-đờr ph-rờm plây-ba-k o(r)-đờr | không dùng vị trí video để đổi thứ tự story |
 | `meet a two-wheel stamina requirement` | mii(t) ờ tu-uii(l) x-ta-mờ-nờ ri-kuai-ờr-mần-t | điều kiện pull đã hoàn tất trước briefing này |
 | `report the quest state without fixing a route` | ri-po(r)t đờ kue(st) x-tâi(t) uị(đh)-ao(t) phíc-xing ờ rut | objective cố định nhưng hành trình xuống vẫn mở |
+
+Continuity bridge trước clock chính của bài là: `Guidance from Ages Past` Complete → report Mineru cho Purah → `Find the Fifth Sage` Complete + `Crisis at Hyrule Castle` Complete. Trên save đang xem, Link đã có Master Sword nên `Destroy Ganondorf` có thể bắt đầu ngay; trên save chưa có sword, nhánh Deku Tree/Master Sword vẫn chen giữa report và final briefing.
 
 ## Tên bài — a fixed objective narrows into a variable descent, a four-wave stand, and a duel threshold
 
@@ -184,7 +188,7 @@ Tất cả câu trong phần này là `[PARA]`: câu luyện tự nhiên dựa t
 
 ### Mạch story
 
-The lesson begins after the Master Sword thread has been resolved on this save. At Lookout Landing, Josha presents the result of her Chasm Research rather than a complete route plan. The evidence points toward the Depths beneath Hyrule Castle. Purah combines that research with the unresolved location of Demon King Ganondorf and turns a broad final objective into a concrete search direction. The important change is informational: Link now knows where to investigate, not every step required to reach the target.
+Before the selected video clock, Link has already reported Mineru to Purah. That report completes both `Find the Fifth Sage` and `Crisis at Hyrule Castle`; because this save also has the Master Sword, `Destroy Ganondorf` can begin immediately. The lesson's observed footage then begins after the Master Sword thread has been resolved on this save. At Lookout Landing, Josha presents the result of her Chasm Research rather than a complete route plan. The evidence points toward the Depths beneath Hyrule Castle. Purah combines that research with the unresolved location of Demon King Ganondorf and turns a broad final objective into a concrete search direction. The important change is informational: Link now knows where to investigate, not every step required to reach the target.
 
 Purah's response is practical and urgent. She relies on the research team, confirms that the Surface and the floating castle are not enough to explain Ganondorf's position, and entrusts the final move to Link. Because BeardBear's save already has Mineru and the Master Sword, the briefing acknowledges resources earned in earlier chapters. Those acknowledgements describe this save state; they do not mean every player must have followed the same order before starting the final quest.
 
@@ -500,6 +504,7 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 
 | Nhãn | Mệnh đề | Cách dùng |
 |---|---|---|
+| Fact — continuity bridge | Reporting Mineru to Purah completes `Find the Fifth Sage` and `Crisis at Hyrule Castle`. | Đặt trước final briefing; không gán report này cho clock chính của bài. |
 | Fact | Josha's Chasm Research points the search beneath Hyrule Castle. | Dùng như location lead, không như route instruction. |
 | Fact | Sage avatars disappear in Gloom's Approach. | Tách local support state khỏi later physical arrival. |
 | Fact | The observed army event has four enemy waves. | Giữ đúng group order. |
@@ -514,7 +519,7 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 ### Test 0 — Truy hồi thanh kiếm trước final briefing
 
 1. `receive Vow of Mineru after the Spirit Temple` — truy hồi từ main18.
-2. `recognize that BeardBear playback shows this forest/sword section earlier` — truy hồi order note của main19.
+2. `report Mineru to Purah` — bridge hoàn tất `Find the Fifth Sage` và `Crisis at Hyrule Castle`.
 3. `meet the two-full-stamina requirement` — truy hồi điều kiện sword pull.
 4. `observe Recovering the Hero's Sword Complete` — truy hồi state trước final lead.
 
@@ -559,7 +564,7 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 ### Đáp án Test 0
 
 1. Mineru's Vow follows the Spirit Temple.
-2. The sword footage appears earlier even though the lesson is later in story order.
+2. Reporting Mineru to Purah completes both `Find the Fifth Sage` and `Crisis at Hyrule Castle`.
 3. Two full stamina wheels sustain the pull.
 4. The quest is observed Complete with Master Sword in this save.
 
@@ -613,6 +618,7 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 
 | Phạm vi | Nguồn chính | Điều khóa được | Điều không được suy |
 |---|---|---|---|
+| Post-Mineru report | Crisis at Hyrule Castle page | Purah report; two quest completions; Master Sword conditional | report xuất hiện trong footage `21:52:40–22:15:20` |
 | Lookout Landing lead | BeardBear + Destroy Ganondorf page | Josha research, Purah direction, observed save state | one mandatory preparation route |
 | Final descent | cảnh trong video BeardBear | Chasm, support loss, named landmarks | exact jumps, fights or damage |
 | Army event | BeardBear + Demon King's Army page | four groups and their order | one required weapon plan |
@@ -632,6 +638,7 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 - [ ] Tôi đọc đúng `Destroy` /dɪˈstrɔɪ/ và không bịa IPA cho Ganondorf.
 - [ ] Tôi phân biệt mốc chapter rộng `21:52:35–22:54:05` với bảy đoạn cảnh của bài.
 - [ ] Tôi nhớ khoảng `21:54:50–21:57:30` là prep/travel.
+- [ ] Tôi đặt report Mineru cho Purah trước final briefing và ghi đúng hai quest Complete.
 - [ ] Tôi giải thích Josha supplies research còn Purah supplies direction.
 - [ ] Tôi không gọi Depths lead là một route hoàn chỉnh.
 - [ ] Tôi đặt Hyrule Castle Chasm trước Gloom's Approach.
@@ -652,7 +659,6 @@ Kể trong 60–80 giây. Phải nói rõ research lead → support loss → thr
 - [ ] Tôi ghi Master Sword response là this-save evidence.
 - [ ] Tôi không đưa damage pattern của Ganondorf vào bài 20.
 - [ ] Tôi dừng retell trước first health bar.
-- [ ] Tôi trả lời đủ ba câu riêng của từng Beat mà không lặp khung.
 
 ## Đi tiếp
 

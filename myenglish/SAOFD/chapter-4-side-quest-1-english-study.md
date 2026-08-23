@@ -1,10 +1,10 @@
 # SAO: Fractured Daydream — Chapter 4, Side Quest 1 (4-S1)
 
-> **Lộ trình học:** [Reunion](chapter-4-quest-3-english-study.md) → **Administrator and Uniforms (đang học)** → [Dreams of Someday](chapter-4-side-quest-3-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Reunion](chapter-4-quest-3-english-study.md) → **Administrator and Uniforms (đang học)** → [Dreams of Someday](chapter-4-side-quest-3-english-study.md)
 
 ## Administrator and Uniforms
 
-> Lộ trình: [Main Quest 4.3](chapter-4-quest-3-english-study.md) → **4-S1 (đang học)** → [4-S3](chapter-4-side-quest-3-english-study.md) → [4-S4](chapter-4-side-quest-4-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.3](chapter-4-quest-3-english-study.md) → **4-S1 (đang học)** → [4-S3](chapter-4-side-quest-3-english-study.md) → [4-S4](chapter-4-side-quest-4-english-study.md)
 
 - Video: [YouTube — Side Quest 4-1](https://www.youtube.com/watch?v=aaG95uTj7_w)
 - Đối chiếu nhiệm vụ: [Samurai Gamers — SAOFD Side Quest 4-1 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-4-1-walkthrough/)

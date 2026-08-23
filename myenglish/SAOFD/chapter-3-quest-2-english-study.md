@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, QUEST 2
+# SAO: Fractured Daydream — Chapter 3, Main Quest 2 (3-2)
 
 ## The Girl in the Cage
 
-> Lộ trình học: [Main Quest 3.1 — Unexpected Reunion](chapter-3-quest-1-english-study.md) → **Main Quest 3.2 (đang học)** → [Side Quest 3.1 — The Two's Relationship](chapter-3-side-quest-1-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.1 — Unexpected Reunion](chapter-3-quest-1-english-study.md) → **Main Quest 3.2 (đang học)** → [Side Quest 3.1 — The Two's Relationship](chapter-3-side-quest-1-english-study.md)
 
 - Video hard-sub chính: [Trophygamers — The Girl in the Cage](https://www.youtube.com/watch?v=49yJ-VwKpos)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Main Quest 3.2 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-3-2-walkthrough/)

@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, QUEST 6
+# SAO: Fractured Daydream — Chapter 3, Main Quest 6 (3-6)
 
 ## Cognitive Contamination
 
-> Lộ trình học: [Main Quest 3.5 — Rendezvous](chapter-3-quest-5-english-study.md) → **Main Quest 3.6 (đang học)** → [Main Quest 3.7 — A World for Whom?](chapter-3-quest-7-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.5 — Rendezvous](chapter-3-quest-5-english-study.md) → **Main Quest 3.6 (đang học)** → [Main Quest 3.7 — A World for Whom?](chapter-3-quest-7-english-study.md)
 
 - Video hard-sub chính: [Anime Gaming Zero — Cognitive Contamination](https://www.youtube.com/watch?v=338RGvehSeU)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Main Quest 3.6 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-3-6-walkthrough/)

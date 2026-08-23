@@ -4,7 +4,7 @@
 
 - **S1 — [Zelda Wiki — Mini-Games in Breath of the Wild](https://zeldawiki.wiki/wiki/Mini-Games_in_Breath_of_the_Wild):** nguồn chính để khóa phạm vi và terminology; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **S2 — [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94):** video English UI/no commentary để đối chiếu hoạt động và đoạn hình; đoạn hình chứng minh hoạt động; câu luyện không phải subtitle hay transcript.
-- **S3 — [Gut Check Rock Challenge](https://zeldawiki.wiki/wiki/Gut_Check_Rock_Challenge):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S3 — [Super Gut Check Challenge — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Gut_Check_Rock_Challenge):** khóa tên tra cứu của lượt khó `Super Gut Check Challenge`; Shrine Quest mở đầu là `The Gut Check Challenge`, và cả hai không mặc nhiên là chuỗi `EXACT UI` nếu chưa có frame trực tiếp.
 - **S4 — [Restoring the Blue Flame](https://zeldawiki.wiki/wiki/Restoring_the_Blue_Flame):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **UI/audio:** English Switch UI trong phạm vi các nguồn; video nguồn dùng English UI và không lời bình. English game voice, audio language, subtitle và transcript không được mặc định từ câu luyện.
 - **Version/scope:** base game theo catalog/source hiện dẫn; reward có thể phụ thuộc first-clear, inventory, record hoặc game version nên phải đọc state hiện tại.
@@ -12,17 +12,17 @@
 
 ## Tên bài — taxonomy và phạm vi activity
 
-- `Skill and Luck — 4 Minigames` gom đúng bốn activity trong ledger: Boom Bam Golf; Gut Check Rock Challenge; Lucky Treasure Shop; Restoring the Blue Flame.
+- `Skill and Luck — 4 Minigames` gom đúng bốn activity trong ledger: Boom Bam Golf; Super Gut Check Challenge; All or Nothing; Restoring the Blue Flame.
 - Phần trước dấu gạch ngang nêu family kỹ năng; “4” là count của hub, không phải stage count trong từng game.
-- Tên/reference label giữ đúng nguồn; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
+- Các tên trong ledger là **tên tra cứu** giữ theo nguồn tham chiếu; không tự coi chúng là Adventure Log title hay `EXACT UI`. Practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
 
 ## Ledger hoạt động — 4/4
 
 | Minigame | Nơi / người tổ chức | Mục tiêu | Đoạn nguồn |
 |---|---|---|---|
 | Boom Bam Golf | Tanagar Canyon Course / Modar | Dùng Stasis đẩy boulder vào lỗ với ít cú đánh | 22:54–25:59 |
-| Gut Check Rock Challenge | Gut Check Rock / Bayge | Lần đầu 20/100; lượt thường 50/100; Super 100/300, đều phải leo đủ mục tiêu | 10:10–14:33 |
-| Lucky Treasure Shop | Lurelin Village / Cloyne | Trả phí, chọn một trong ba rương và nhận vật bên trong | 39:03–40:40 |
+| Super Gut Check Challenge | Gut Check Rock / Bayge | Sau Shrine Quest `The Gut Check Challenge`: lượt thường 50/100; Super 100/300, đều phải leo đủ mục tiêu | 10:10–14:33 |
+| All or Nothing | Lurelin Village / Cloyne | Trả phí, chọn một trong ba rương và nhận vật bên trong | 39:03–40:40 |
 | Restoring the Blue Flame | East Akkala Stable / Aya | Dùng pedestal đang sáng phía bắc stable; hoàn thành trong các giới hạn không quá 3 phút, 1 phút và 20 giây | 14:34–17:18 |
 
 ## Từ và cụm trọng tâm
@@ -137,10 +137,10 @@
 
 ---
 
-## Activity 2/4 — Gut Check Rock Challenge
+## Activity 2/4 — Super Gut Check Challenge
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Gut Check Rock Challenge](https://zeldawiki.wiki/wiki/Gut_Check_Rock_Challenge) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Super Gut Check Challenge` là tên tra cứu của lượt khó; Shrine Quest mở đầu là `The Gut Check Challenge`. Card này trình bày cả đường mở khóa và lượt chơi lại, nhưng không coi tên tra cứu là `EXACT UI` nếu chưa có frame trực tiếp.
+- **Nguồn activity:** [Super Gut Check Challenge — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Gut_Check_Rock_Challenge) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -164,7 +164,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Gut Check Rock Challenge diễn ra tại Gut Check Rock / Bayge; mục tiêu đã khóa là Lần đầu 20/100; lượt thường 50/100; Super 100/300, đều phải leo đủ mục tiêu.
+- **Mốc kiểm chứng:** Super Gut Check Challenge diễn ra tại Gut Check Rock / Bayge sau Shrine Quest `The Gut Check Challenge`; mục tiêu đã khóa là lượt thường 50/100 và Super 100/300, đều phải leo đủ mục tiêu.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -188,9 +188,9 @@
 
 ---
 
-## Activity 3/4 — Lucky Treasure Shop
+## Activity 3/4 — All or Nothing
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
+- **Naming boundary:** `All or Nothing` là tên tra cứu của activity tại Cloyne; không tự gọi đây là Adventure Log title hay `EXACT UI` nếu chưa có frame trực tiếp.
 - **Nguồn activity:** [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94) khóa đoạn hình 39:03–40:40; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** direct English video window `39:03–40:40`; video không lời bình, nhưng câu luyện dưới đây vẫn không phải subtitle hay transcript.
 
@@ -215,7 +215,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Lucky Treasure Shop diễn ra tại Lurelin Village / Cloyne; mục tiêu đã khóa là Trả phí, chọn một trong ba rương và nhận vật bên trong.
+- **Mốc kiểm chứng:** All or Nothing diễn ra tại Lurelin Village / Cloyne; mục tiêu đã khóa là Trả phí, chọn một trong ba rương và nhận vật bên trong.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -298,7 +298,7 @@ Boom Bam Golf tối ưu số stroke; Gut Check thường và Super yêu cầu ha
 
 ### Test B — Luck và time trial
 
-Lucky Treasure Shop khóa hai rương sau lựa chọn; Blue Flame dùng ba giới hạn thời gian nào cho Purple, Silver và Gold?
+All or Nothing khóa hai rương sau lựa chọn; Blue Flame dùng ba giới hạn thời gian nào cho Purple, Silver và Gold?
 
 ### Test C — Nguồn lửa
 
@@ -330,18 +330,18 @@ Túi đầy đổi Rushroom và Endura Shroom thành hai màu Rupee nào; một 
 - [ ] Boom Bam Golf — Tanagar Canyon Course / Modar; Trả 20 Rupee dưới Tabantha Great Bridge cho một lượt golf bằng boulder.
 - [ ] Boom Bam Golf — Dùng Stasis và đòn vũ khí để đẩy boulder vào lỗ xa với ít cú nhất có thể.
 - [ ] Boom Bam Golf — Số cú thấp hơn nhận khoản Rupee tốt hơn, và vòng khác tốn 20 Rupee.
-- [ ] Gut Check Rock Challenge — Gut Check Rock / Bayge; Lượt Shrine Quest đầu tốn 20 Rupee và yêu cầu thu 100 Rupee trong ba phút để mở lối vào Gorae Torr Shrine.
-- [ ] Gut Check Rock Challenge — Sau lần hoàn tất đó, Gut Check thường tốn 50 cho mục tiêu 100 Rupee, còn Super tốn 100 cho mục tiêu 300 Rupee.
-- [ ] Gut Check Rock Challenge — Lượt lại thường thưởng Rushroom hoặc Red Rupee nếu túi đầy; Super thưởng Endura Shroom hoặc Purple Rupee theo cùng điều kiện thay thế.
-- [ ] Lucky Treasure Shop — Lurelin Village / Cloyne; Chọn cược 10, 50 hoặc 100 Rupee trước khi ba rương được đưa ra.
-- [ ] Lucky Treasure Shop — Chỉ mở đúng một trong ba rương; hai rương còn lại đóng trong vòng đó.
-- [ ] Lucky Treasure Shop — Rương đã chọn quyết định khoản Rupee, và ván khác chỉ bắt đầu sau khi chọn rồi trả cược mới.
+- [ ] Super Gut Check Challenge — tại Gut Check Rock / Bayge, tiến trình bắt đầu bằng Shrine Quest `The Gut Check Challenge`: tốn 20 Rupee và yêu cầu thu 100 Rupee trong ba phút để mở lối vào Gorae Torr Shrine.
+- [ ] Super Gut Check Challenge — sau lần hoàn tất đó, Gut Check thường tốn 50 cho mục tiêu 100 Rupee, còn Super tốn 100 cho mục tiêu 300 Rupee.
+- [ ] Super Gut Check Challenge — lượt lại thường thưởng Rushroom hoặc Red Rupee nếu túi đầy; Super thưởng Endura Shroom hoặc Purple Rupee theo cùng điều kiện thay thế.
+- [ ] All or Nothing — Lurelin Village / Cloyne; Chọn cược 10, 50 hoặc 100 Rupee trước khi ba rương được đưa ra.
+- [ ] All or Nothing — Chỉ mở đúng một trong ba rương; hai rương còn lại đóng trong vòng đó.
+- [ ] All or Nothing — Rương đã chọn quyết định khoản Rupee, và ván khác chỉ bắt đầu sau khi chọn rồi trả cược mới.
 - [ ] Restoring the Blue Flame — East Akkala Stable / Aya; Mỗi lượt tốn 20 Rupee, và chặng đầu yêu cầu mang lửa xanh về trong vòng ba phút.
 - [ ] Restoring the Blue Flame — Blue Flame Pedestal đang sáng phía bắc stable vẫn cháy trong minigame và nhanh hơn nhiều so với lò cổ.
 - [ ] Restoring the Blue Flame — Lần đầu trong vòng ba phút thưởng Purple; dập bệ đích để mở chặng Silver có giới hạn một phút, rồi chặng Gold có giới hạn hai mươi giây, còn các lượt sau thưởng Red.
 - [ ] Tôi không nhầm low stroke với high payout chance.
 - [ ] Tôi thuộc cặp 50/100 và 100/300 của hai Gut Check.
-- [ ] Tôi giữ đúng một-rương-mỗi-ván ở Lucky Treasure Shop.
+- [ ] Tôi giữ đúng một-rương-mỗi-ván ở All or Nothing.
 - [ ] Tôi ghép đúng Purple–3 phút, Silver–1 phút, Gold–20 giây.
 
 ## Đi tiếp

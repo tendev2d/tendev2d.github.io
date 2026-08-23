@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 7
+# SAO: Fractured Daydream — Chapter 5, Main Quest 7 (5-7)
 
 ## An Ideal Grim Reaper
 
-> **Lộ trình học:** [Side Quest 5 — Love of a Treasured Gun](chapter-5-side-quest-5-english-study.md) → **Chapter 5, Quest 7 — An Ideal Grim Reaper (đang học)** → [Quest 8 — The Final Clue](chapter-5-quest-8-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Side Quest 5 — Love of a Treasured Gun](chapter-5-side-quest-5-english-study.md) → **Chapter 5, Quest 7 — An Ideal Grim Reaper (đang học)** → [Quest 8 — The Final Clue](chapter-5-quest-8-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 7](https://www.youtube.com/watch?v=5fVfWlYA3Mw)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-7 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-7-walkthrough/)

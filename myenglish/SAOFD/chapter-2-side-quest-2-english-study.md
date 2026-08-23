@@ -2,7 +2,7 @@
 
 ## Battlefield Songstress
 
-> Lộ trình học: [2-3 — A Hidden Player?](chapter-2-quest-3-english-study.md) → **2-S2 (đang học)** → [2-S3 — Alice's Discipline](chapter-2-side-quest-3-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-3 — A Hidden Player?](chapter-2-quest-3-english-study.md) → **2-S2 (đang học)** → [2-S3 — Alice's Discipline](chapter-2-side-quest-3-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 17, Chapter 2 Side Quest 2](https://www.youtube.com/watch?v=tOdFq8Akpqk)
 - Đối chiếu thứ tự/phạm vi: [SAMURAI GAMERS — Side Quest walkthrough list](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-walkthroughs/)

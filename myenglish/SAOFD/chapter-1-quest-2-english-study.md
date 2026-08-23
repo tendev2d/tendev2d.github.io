@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 2
+# SAO: Fractured Daydream — Chapter 1, Main Quest 2 (1-2)
 
 ## Administrator
 
-> **Lộ trình học:** [Main Quest 1.1 — The Galaxia Update](chapter-1-quest-1-english-study.md) → **Main Quest 1.2 — Administrator (đang học)** → [Main Quest 1.3 — The Two Girls](chapter-1-quest-3-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.1 — The Galaxia Update](chapter-1-quest-1-english-study.md) → **Main Quest 1.2 — Administrator (đang học)** → [Main Quest 1.3 — The Two Girls](chapter-1-quest-3-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.2](https://www.youtube.com/watch?v=aV8VO5F7xKg)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.2 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-2-walkthrough/)

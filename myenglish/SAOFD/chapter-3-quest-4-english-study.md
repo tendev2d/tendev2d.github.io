@@ -1,8 +1,8 @@
-# SWORD ART ONLINE: FRACTURED DAYDREAM — CHAPTER 3, QUEST 4
+# SAO: Fractured Daydream — Chapter 3, Main Quest 4 (3-4)
 
 ## Maze
 
-> Lộ trình học: [Main Quest 3.3 — Forest of Wandering](chapter-3-quest-3-english-study.md) → **Main Quest 3.4 (đang học)** → [Main Quest 3.5 — Rendezvous](chapter-3-quest-5-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 3.3 — Forest of Wandering](chapter-3-quest-3-english-study.md) → **Main Quest 3.4 (đang học)** → [Main Quest 3.5 — Rendezvous](chapter-3-quest-5-english-study.md)
 
 - Video hard-sub chính: [Trophygamers — Maze](https://www.youtube.com/watch?v=5kUJotWTpaw)
 - Đối chiếu title, quest overview và objective: [SAMURAI GAMERS — Main Quest 3.4 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-3-4-walkthrough/)

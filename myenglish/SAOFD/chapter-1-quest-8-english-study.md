@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 8
+# SAO: Fractured Daydream — Chapter 1, Main Quest 8 (1-8)
 
 ## Decoy
 
-> **Lộ trình học:** [Main Quest 1.7 — Reinforcements](chapter-1-quest-7-english-study.md) → **Main Quest 1.8 — Decoy (đang học)** → [Main Quest 1.9 — Galaxia's Door](chapter-1-quest-9-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.7 — Reinforcements](chapter-1-quest-7-english-study.md) → **Main Quest 1.8 — Decoy (đang học)** → [Main Quest 1.9 — Galaxia's Door](chapter-1-quest-9-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.8](https://www.youtube.com/watch?v=s_Ns0aC2JAM)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.8 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-8-walkthrough/)

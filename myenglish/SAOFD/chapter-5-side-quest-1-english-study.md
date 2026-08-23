@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Side Quest 1
+# SAO: Fractured Daydream — Chapter 5, Side Quest 1 (5-S1)
 
 ## A Special Song for You
 
-> **Lộ trình học:** [Quest 3 — Seabed Shrine](chapter-5-quest-3-english-study.md) → **5-S1 (đang học)** → [Side Quest 4 — Memorable Meals](chapter-5-side-quest-4-english-study.md).
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 3 — Seabed Shrine](chapter-5-quest-3-english-study.md) → **5-S1 (đang học)** → [Side Quest 4 — Memorable Meals](chapter-5-side-quest-4-english-study.md).
 
 ## 1. Nguồn, nhãn nhiệm vụ và cách kiểm chứng
 

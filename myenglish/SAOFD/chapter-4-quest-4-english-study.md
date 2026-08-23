@@ -1,10 +1,10 @@
-# SAOFD — Ôn 4-S1, 4-S3, 4-S4 rồi học Main Quest 4.4
+# SAO: Fractured Daydream — Chapter 4, Main Quest 4 (4-4)
 
-> **Lộ trình học:** [Alice's Tea Party 1](chapter-4-side-quest-4-english-study.md) → **Potential Culprit (đang học)** → [Kind Soul](chapter-4-side-quest-2-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Alice's Tea Party 1](chapter-4-side-quest-4-english-study.md) → **Potential Culprit (đang học)** → [Kind Soul](chapter-4-side-quest-2-english-study.md)
 
 ## Potential Culprit
 
-> Lộ trình: [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → [4-S3](chapter-4-side-quest-3-english-study.md) → [4-S4](chapter-4-side-quest-4-english-study.md) → **Main Quest 4.4** → [4-S2](chapter-4-side-quest-2-english-study.md) → [4-S5](chapter-4-side-quest-5-english-study.md) → [Main Quest 4.5](chapter-4-quest-5-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → [4-S3](chapter-4-side-quest-3-english-study.md) → [4-S4](chapter-4-side-quest-4-english-study.md) → **Main Quest 4.4** → [4-S2](chapter-4-side-quest-2-english-study.md) → [4-S5](chapter-4-side-quest-5-english-study.md) → [Main Quest 5 (4-5)](chapter-4-quest-5-english-study.md)
 
 File này được sắp theo đúng việc bạn cần làm hôm nay:
 

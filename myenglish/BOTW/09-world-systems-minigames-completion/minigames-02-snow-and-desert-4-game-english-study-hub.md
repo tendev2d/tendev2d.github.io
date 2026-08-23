@@ -5,8 +5,8 @@
 - **S1 — [Zelda Wiki — Mini-Game](https://zeldawiki.wiki/wiki/Mini-Game):** nguồn chính để khóa phạm vi và terminology; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **S2 — [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94):** video English UI/no commentary để đối chiếu hoạt động và đoạn hình; đoạn hình chứng minh hoạt động; câu luyện không phải subtitle hay transcript.
 - **S3 — [Carry the Ice!](https://zeldawiki.wiki/wiki/Carry_the_Ice%21):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S4 — [Sand-Seal Race](https://zeldawiki.wiki/wiki/Sand-Seal_Race):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S5 — [Selmie's Shield-Surfing](https://zeldawiki.wiki/wiki/Selmie%27s_Shield-Surfing):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S4 — [Sand-Seal Racing — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Sand-Seal_Race):** nguồn đối chiếu điều kiện và reward; `Sand-Seal Racing` là tên tra cứu chuẩn, không tự coi là một `EXACT UI` banner nếu chưa có frame trực tiếp. Không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S5 — [Selmie's Shield-Surfing — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Selmie%27s_Shield-Surfing):** nguồn đối chiếu điều kiện và reward; `Selmie's Shield-Surfing` là tên tra cứu chuẩn, không tự coi là `EXACT UI` nếu chưa có frame trực tiếp. Không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **S6 — [Snowball Bowling](https://zeldawiki.wiki/wiki/Snowball_Bowling):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **UI/audio:** English Switch UI trong phạm vi các nguồn; video nguồn dùng English UI và không lời bình. English game voice, audio language, subtitle và transcript không được mặc định từ câu luyện.
 - **Version/scope:** base game theo catalog/source hiện dẫn; reward có thể phụ thuộc first-clear, inventory, record hoặc game version nên phải đọc state hiện tại.
@@ -14,17 +14,17 @@
 
 ## Tên bài — taxonomy và phạm vi activity
 
-- `Snow and Desert — 4 Minigames` gom đúng bốn activity trong ledger: Carry the Ice!; Sand-Seal Race; Shield-Surfing; Snowball Bowling.
+- `Snow and Desert — 4 Minigames` gom đúng bốn activity trong ledger: Carry the Ice!; Sand-Seal Racing; Selmie's Shield-Surfing; Snowball Bowling.
 - Phần trước dấu gạch ngang nêu family kỹ năng; “4” là count của hub, không phải stage count trong từng game.
-- Tên/reference label giữ đúng nguồn; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
+- Các tên trong ledger là **tên tra cứu** để tìm đúng hoạt động. Chúng không tự mang nhãn `EXACT UI` hoặc Adventure Log title nếu bài chưa có frame trực tiếp; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
 
 ## Ledger hoạt động — 4/4
 
 | Minigame | Nơi / điều kiện | Mục tiêu | Đoạn nguồn |
 |---|---|---|---|
 | Carry the Ice! | Northern Icehouse; lượt quest miễn phí, lượt lại 50 Rupee | Đưa băng cho Furosa; lượt lại trên 2 phút thưởng Silver, dưới 2 phút thưởng Gold | 26:00–29:14 |
-| Sand-Seal Race | Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100 | Qua đủ 7 cổng; lần đầu phá 1:30 lấy orb, lượt lại phá kỷ lục cá nhân lấy Gold | 29:15–32:28 |
-| Shield-Surfing | Selmie's Spot; 20 Rupee mỗi lượt | Vượt Beginner để mở Advanced; chỉ thời gian Advanced quyết định shield thưởng | 00:01–02:44 |
+| Sand-Seal Racing | Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100 | Qua đủ 7 cổng; lần đầu phá 1:30 lấy orb, lượt lại phá kỷ lục cá nhân lấy Gold | 29:15–32:28 |
+| Selmie's Shield-Surfing | Selmie's Spot; 20 Rupee mỗi lượt | Vượt Beginner để mở Advanced; chỉ thời gian Advanced quyết định shield thưởng | 00:01–02:44 |
 | Snowball Bowling | Pondo's Lodge | Lăn snowball vào mười pin để ghi điểm | 05:11–07:31 |
 
 ## Từ và cụm trọng tâm
@@ -139,10 +139,10 @@
 
 ---
 
-## Activity 2/4 — Sand-Seal Race
+## Activity 2/4 — Sand-Seal Racing
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Sand-Seal Race](https://zeldawiki.wiki/wiki/Sand-Seal_Race) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Sand-Seal Racing` là tên tra cứu của activity; không tự gọi đây là `EXACT UI` hoặc Adventure Log title nếu chưa có frame chứng minh.
+- **Nguồn activity:** [Sand-Seal Racing — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Sand-Seal_Race) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -166,7 +166,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Sand-Seal Race diễn ra tại Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100; mục tiêu đã khóa là Qua đủ 7 cổng; lần đầu phá 1:30 lấy orb, lượt lại phá kỷ lục cá nhân lấy Gold.
+- **Mốc kiểm chứng:** Sand-Seal Racing diễn ra tại Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100; mục tiêu đã khóa là Qua đủ 7 cổng; lần đầu phá 1:30 lấy orb, lượt lại phá kỷ lục cá nhân lấy Gold.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -190,9 +190,9 @@
 
 ---
 
-## Activity 3/4 — Shield-Surfing
+## Activity 3/4 — Selmie's Shield-Surfing
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
+- **Naming boundary:** `Selmie's Shield-Surfing` là tên tra cứu của activity; không tự gọi đây là `EXACT UI` hoặc Adventure Log title nếu chưa có frame chứng minh.
 - **Nguồn activity:** [Selmie's Shield-Surfing](https://zeldawiki.wiki/wiki/Selmie%27s_Shield-Surfing) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
@@ -217,7 +217,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Shield-Surfing diễn ra tại Selmie's Spot; 20 Rupee mỗi lượt; mục tiêu đã khóa là Vượt Beginner để mở Advanced; chỉ thời gian Advanced quyết định shield thưởng.
+- **Mốc kiểm chứng:** Selmie's Shield-Surfing diễn ra tại Selmie's Spot; 20 Rupee mỗi lượt; mục tiêu đã khóa là Vượt Beginner để mở Advanced; chỉ thời gian Advanced quyết định shield thưởng.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -296,15 +296,15 @@
 
 ### Test A — Tan băng và bị loại khỏi race
 
-Nêu ba nguy cơ làm hỏng Carry the Ice!, rồi tách chúng khỏi hai lỗi rời course/rời shield của Sand-Seal Race.
+Nêu ba nguy cơ làm hỏng Carry the Ice!, rồi tách chúng khỏi hai lỗi rời course/rời shield của Sand-Seal Racing.
 
 ### Test B — Mở course và số lần lăn
 
-Shield-Surfing mở Advanced sau bước nào; Snowball Bowling cho tối đa bao nhiêu lần lăn để tạo strike hoặc spare?
+Selmie's Shield-Surfing mở Advanced sau bước nào; Snowball Bowling cho tối đa bao nhiêu lần lăn để tạo strike hoặc spare?
 
 ### Test C — Mốc thưởng
 
-Đặt cạnh nhau mốc hai phút của Carry the Ice!, 1:30 của Sand-Seal Race và reward chỉ thuộc Advanced Course.
+Đặt cạnh nhau mốc hai phút của Carry the Ice!, 1:30 của Sand-Seal Racing và reward chỉ thuộc Advanced Course.
 
 ### Test D — Inventory case
 
@@ -332,12 +332,12 @@ Một strike đầu khi kho vũ khí đầy đổi Blizzard Rod thành gì, còn
 - [ ] Carry the Ice! — Northern Icehouse; lượt quest miễn phí, lượt lại 50 Rupee; Với yêu cầu đầu của Furosa, tôi cấp băng không thu phí; sau Shrine Quest, mỗi lượt lại tốn 50 Rupee.
 - [ ] Carry the Ice! — Giao khối tới điểm bàn giao trước khi nắng, nóng hoặc đòn kẻ địch làm nó tan hết.
 - [ ] Carry the Ice! — Lần giao đầu giúp tôi chuẩn bị đồ uống của Pokki; ở lượt trả phí, chuyến trên hai phút thưởng Silver và dưới hai phút thưởng Gold.
-- [ ] Sand-Seal Race — Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100; Lượt đua đầu vì Grand Trophy tốn 50 Rupee và thách thức kỷ lục một phút ba mươi của Tali.
-- [ ] Sand-Seal Race — Qua đủ bảy cổng đánh dấu; rời đường đua hoặc rời khỏi shield sẽ làm lượt bị loại.
-- [ ] Sand-Seal Race — Lần đầu thắng mốc một phút ba mươi trao ancient orb cho Raqa Zunzo Shrine; sau đó lượt lại tốn 100 và kỷ lục cá nhân mới thưởng Gold.
-- [ ] Shield-Surfing — Selmie's Spot; 20 Rupee mỗi lượt; Beginner Course tốn 20 Rupee; hãy vượt nó và qua phần hỏi tiếp của Selmie trước khi Advanced Course mở.
-- [ ] Shield-Surfing — Beginner Course kết thúc ở Big Bridge, còn Advanced Course dài hơn tiếp tục tới cặp cờ đích.
-- [ ] Shield-Surfing — Chỉ thời gian về đích của Advanced Course quyết định shield thưởng; kết quả Beginner không trao shield, và mỗi lượt thử lại tốn 20 Rupee.
+- [ ] Sand-Seal Racing — Sand-Seal Rally; lần đầu 50 Rupee, lượt lại 100; Lượt đua đầu vì Grand Trophy tốn 50 Rupee và thách thức kỷ lục một phút ba mươi của Tali.
+- [ ] Sand-Seal Racing — Qua đủ bảy cổng đánh dấu; rời đường đua hoặc rời khỏi shield sẽ làm lượt bị loại.
+- [ ] Sand-Seal Racing — Lần đầu thắng mốc một phút ba mươi trao ancient orb cho Raqa Zunzo Shrine; sau đó lượt lại tốn 100 và kỷ lục cá nhân mới thưởng Gold.
+- [ ] Selmie's Shield-Surfing — Selmie's Spot; 20 Rupee mỗi lượt; Beginner Course tốn 20 Rupee; hãy vượt nó và qua phần hỏi tiếp của Selmie trước khi Advanced Course mở.
+- [ ] Selmie's Shield-Surfing — Beginner Course kết thúc ở Big Bridge, còn Advanced Course dài hơn tiếp tục tới cặp cờ đích.
+- [ ] Selmie's Shield-Surfing — Chỉ thời gian về đích của Advanced Course quyết định shield thưởng; kết quả Beginner không trao shield, và mỗi lượt thử lại tốn 20 Rupee.
 - [ ] Snowball Bowling — Pondo's Lodge; Trả 20 Rupee tại Pondo's Lodge cho một frame có mười pin và tối đa hai lần lăn snowball.
 - [ ] Snowball Bowling — Hạ đủ mười pin ở lần lăn đầu là strike; hạ nốt ở lần thứ hai là spare.
 - [ ] Snowball Bowling — Khi còn ô vũ khí trống, strike đầu cho Blizzard Rod; nếu kho vũ khí đầy, nó cho Gold thay thế. Strike sau cho Gold, spare cho Silver, chín pin cho Purple, bảy hoặc tám cho Red, và không đến sáu pin không thưởng; frame khác tốn 20.

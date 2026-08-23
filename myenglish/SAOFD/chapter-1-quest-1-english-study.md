@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Main Quest 1.1
+# SAO: Fractured Daydream — Chapter 1, Main Quest 1 (1-1)
 
 ## The Galaxia Update
 
-> Lộ trình học: **Main Quest 1.1 (đang học)** → [Main Quest 1.2 — Administrator](chapter-1-quest-2-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): **Main Quest 1.1 (đang học)** → [Main Quest 1.2 — Administrator](chapter-1-quest-2-english-study.md)
 
 - Video học chính: [Anime Gaming Zero — Part 1, Chapter 1 Quest 1](https://www.youtube.com/watch?v=x0McgO21CMQ)
 - Premise chính thức: [Bandai Namco — Fractured Daydream official site](https://en.bandainamcoent.eu/sword-art-online/sword-art-online-fractured-daydream)

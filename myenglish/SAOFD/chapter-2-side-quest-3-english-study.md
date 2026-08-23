@@ -2,7 +2,7 @@
 
 ## Alice's Discipline
 
-> Lộ trình học: [2-S2 — Battlefield Songstress](chapter-2-side-quest-2-english-study.md) → **2-S3 (đang học)** → [2-4 — "DEAD" Indicators](chapter-2-quest-4-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-S2 — Battlefield Songstress](chapter-2-side-quest-2-english-study.md) → **2-S3 (đang học)** → [2-4 — "DEAD" Indicators](chapter-2-quest-4-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 18, Chapter 2 Side Quest 3](https://www.youtube.com/watch?v=jPpsG50Rlwc)
 - Đối chiếu thứ tự/phạm vi: [SAMURAI GAMERS — Side Quest walkthrough list](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-walkthroughs/)

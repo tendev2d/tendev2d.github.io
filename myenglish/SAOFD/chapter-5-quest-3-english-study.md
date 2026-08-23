@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 3
+# SAO: Fractured Daydream — Chapter 5, Main Quest 3 (5-3)
 
 ## Seabed Shrine
 
-> **Lộ trình học:** [Quest 2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md) → **Chapter 5, Quest 3 — Seabed Shrine (đang học)** → [Side Quest 1 — A Special Song for You](chapter-5-side-quest-1-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Quest 2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md) → **Chapter 5, Quest 3 — Seabed Shrine (đang học)** → [Side Quest 1 — A Special Song for You](chapter-5-side-quest-1-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 3](https://www.youtube.com/watch?v=BrL2glhu748)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-3 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-3-walkthrough/)

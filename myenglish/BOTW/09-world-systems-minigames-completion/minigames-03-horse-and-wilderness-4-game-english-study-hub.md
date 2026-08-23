@@ -5,27 +5,27 @@
 - **S1 — [Zelda Wiki — Mini-Games in Breath of the Wild](https://zeldawiki.wiki/wiki/Mini-Games_in_Breath_of_the_Wild):** nguồn chính để khóa phạm vi và terminology; không dùng văn bản tham khảo như transcript hoặc lời canon.
 - **S2 — [All Minigames — English, no commentary](https://www.youtube.com/watch?v=P7W8RAmWE94):** video English UI/no commentary để đối chiếu hoạt động và đoạn hình; đoạn hình chứng minh hoạt động; câu luyện không phải subtitle hay transcript.
 - **S3 — [Deer Hunting](https://zeldawiki.wiki/wiki/Deer_Hunting):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S4 — [Horseback Archery](https://zeldawiki.wiki/wiki/Horseback_Archery):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S5 — [Obstacle Course](https://zeldawiki.wiki/wiki/Obstacle_Course):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
-- **S6 — [Test of Wood](https://zeldawiki.wiki/wiki/Test_of_Wood):** nguồn đối chiếu điều kiện, tên hoặc phiên bản; không dùng văn bản tham khảo như transcript hoặc lời canon.
+- **S4 — [Horseback Archery Drill — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Horseback_Archery):** khóa tên tra cứu `Horseback Archery Drill`; đây không mặc nhiên là chuỗi `EXACT UI` nếu chưa có frame trực tiếp.
+- **S5 — [Horseback Obstacle Course — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Obstacle_Course):** khóa tên tra cứu `Horseback Obstacle Course`; đây không mặc nhiên là chuỗi `EXACT UI` nếu chưa có frame trực tiếp.
+- **S6 — [The Test of Wood — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Test_of_Wood):** khóa tên tra cứu `The Test of Wood`; đây không mặc nhiên là chuỗi `EXACT UI` nếu chưa có frame trực tiếp.
 - **UI/audio:** English Switch UI trong phạm vi các nguồn; video nguồn dùng English UI và không lời bình. English game voice, audio language, subtitle và transcript không được mặc định từ câu luyện.
 - **Version/scope:** base game theo catalog/source hiện dẫn; reward có thể phụ thuộc first-clear, inventory, record hoặc game version nên phải đọc state hiện tại.
 - **Cấu trúc học:** bốn activity là bốn lượt độc lập; không ghép chúng thành một tuyến sự kiện chung.
 
 ## Tên bài — taxonomy và phạm vi activity
 
-- `Horse and Wilderness — 4 Minigames` gom đúng bốn activity trong ledger: Deer Hunting; Horseback Archery; Obstacle Course; Test of Wood.
+- `Horse and Wilderness — 4 Minigames` gom đúng bốn activity trong ledger: Deer Hunting; Horseback Archery Drill; Horseback Obstacle Course; The Test of Wood.
 - Phần trước dấu gạch ngang nêu family kỹ năng; “4” là count của hub, không phải stage count trong từng game.
-- Tên/reference label giữ đúng nguồn; practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
+- Các tên trong ledger là **tên tra cứu** giữ theo nguồn tham chiếu; không tự coi chúng là Adventure Log title hay `EXACT UI`. Practice turn gắn `[PARA]`, không phải English subtitle hay canon quote.
 
 ## Ledger hoạt động — 4/4
 
 | Minigame | Nơi / người tổ chức | Mục tiêu | Đoạn nguồn |
 |---|---|---|---|
 | Deer Hunting | Đăng ký miễn phí tại Hateno Pasture / Dantz; vòng chơi ở Retsam Forest | Hạ tối đa 10 Mountain Bucks trong 1 phút; thưởng theo các mốc 0 / 1–3 / 4–6 / 7–9 / 10 | 40:41–43:01 |
-| Horseback Archery | Mounted Archery Camp / Jini | Bắn các bia trong khi cưỡi ngựa trên đường chạy | 32:29–35:58 |
-| Obstacle Course | Highland Stable / Blynne | Cưỡi ngựa vượt đủ chướng ngại và về đích nhanh | 35:59–39:02 |
-| Test of Wood | Lost Woods / Damia, sau Shrine Quest đầu | Mang nguyên bộ Korok Gear đến đích dưới 5 phút trong lượt chơi lại | 07:32–10:09 |
+| Horseback Archery Drill | Mounted Archery Camp / Jini | Bắn các bia trong khi cưỡi ngựa trên đường chạy | 32:29–35:58 |
+| Horseback Obstacle Course | Highland Stable / Blynne | Cưỡi ngựa vượt đủ chướng ngại và về đích nhanh | 35:59–39:02 |
+| The Test of Wood | Lost Woods / Damia, sau Shrine Quest đầu | Mang nguyên bộ Korok Gear đến đích dưới 5 phút trong lượt chơi lại | 07:32–10:09 |
 
 ## Từ và cụm trọng tâm
 
@@ -139,10 +139,10 @@
 
 ---
 
-## Activity 2/4 — Horseback Archery
+## Activity 2/4 — Horseback Archery Drill
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Horseback Archery](https://zeldawiki.wiki/wiki/Horseback_Archery) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Horseback Archery Drill` là tên tra cứu của activity; không tự gọi đây là Adventure Log title hay `EXACT UI` nếu chưa có frame trực tiếp.
+- **Nguồn activity:** [Horseback Archery Drill — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Horseback_Archery) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -166,7 +166,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Horseback Archery diễn ra tại Mounted Archery Camp / Jini; mục tiêu đã khóa là Bắn các bia trong khi cưỡi ngựa trên đường chạy.
+- **Mốc kiểm chứng:** Horseback Archery Drill diễn ra tại Mounted Archery Camp / Jini; mục tiêu đã khóa là Bắn các bia trong khi cưỡi ngựa trên đường chạy.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -190,10 +190,10 @@
 
 ---
 
-## Activity 3/4 — Obstacle Course
+## Activity 3/4 — Horseback Obstacle Course
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Obstacle Course](https://zeldawiki.wiki/wiki/Obstacle_Course) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `Horseback Obstacle Course` là tên tra cứu của activity; không tự gọi đây là Adventure Log title hay `EXACT UI` nếu chưa có frame trực tiếp.
+- **Nguồn activity:** [Horseback Obstacle Course — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Obstacle_Course) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -217,7 +217,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Obstacle Course diễn ra tại Highland Stable / Blynne; mục tiêu đã khóa là Cưỡi ngựa vượt đủ chướng ngại và về đích nhanh.
+- **Mốc kiểm chứng:** Horseback Obstacle Course diễn ra tại Highland Stable / Blynne; mục tiêu đã khóa là Cưỡi ngựa vượt đủ chướng ngại và về đích nhanh.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -241,10 +241,10 @@
 
 ---
 
-## Activity 4/4 — Test of Wood
+## Activity 4/4 — The Test of Wood
 
-- **Naming boundary:** dùng đúng tên/reference label trong ledger; không tự gọi đây là Adventure Log title nếu source không nói vậy.
-- **Nguồn activity:** [Test of Wood](https://zeldawiki.wiki/wiki/Test_of_Wood) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
+- **Naming boundary:** `The Test of Wood` là tên tra cứu của activity; không tự gọi đây là Adventure Log title hay `EXACT UI` nếu chưa có frame trực tiếp.
+- **Nguồn activity:** [The Test of Wood — trang tham chiếu hoạt động](https://zeldawiki.wiki/wiki/Test_of_Wood) khóa điều kiện, luật hoặc reward; nguồn index chỉ dùng để kiểm catalog.
 - **Giới hạn media:** không có direct video clock cho card; English game voice, subtitle và transcript không được dùng làm nguồn cho câu luyện.
 
 ### Access, rules, scoring, reward và phần thay đổi theo lượt
@@ -268,7 +268,7 @@
 
 ### Practice card `[PARA]`
 
-- **Mốc kiểm chứng:** Test of Wood diễn ra tại Lost Woods / Damia, sau Shrine Quest đầu; mục tiêu đã khóa là Mang nguyên bộ Korok Gear đến đích dưới 5 phút trong lượt chơi lại.
+- **Mốc kiểm chứng:** The Test of Wood diễn ra tại Lost Woods / Damia, sau Shrine Quest đầu; mục tiêu đã khóa là Mang nguyên bộ Korok Gear đến đích dưới 5 phút trong lượt chơi lại.
 - **Nhãn:** toàn bộ English practice turns là `[PARA]`; speaker/learner role giúp luyện state, không biến câu thành canon quote.
 
 | Stage | Speaker → listener | Label | Intent / tone | English | Đọc Việt gần giọng Mỹ | Nghĩa tiếng Việt |
@@ -300,19 +300,19 @@ Deer Hunting miễn phí khác hai lượt cưỡi 20 Rupee ở yêu cầu ngự
 
 ### Test B — Count với time
 
-Horseback Archery chấm hit count; Obstacle Course dùng ba mốc thời gian nào cho carrot, bridle và saddle?
+Horseback Archery Drill chấm hit count; Horseback Obstacle Course dùng ba mốc thời gian nào cho carrot, bridle và saddle?
 
 ### Test C — Gear integrity
 
-Test of Wood yêu cầu giữ ba món Forest Dweller nào nguyên vẹn trong dưới năm phút?
+The Test of Wood yêu cầu giữ ba món Forest Dweller nào nguyên vẹn trong dưới năm phút?
 
 ### Test D — Reward case
 
-Nếu bắn trúng 21 bia nhưng đã có Knight's Bridle, nhận gì; nếu Obstacle Course đạt 1:10, nhận gì?
+Nếu bắn trúng 21 bia nhưng đã có Knight's Bridle, nhận gì; nếu Horseback Obstacle Course đạt 1:10, nhận gì?
 
 ## Đáp án
 
-- **A:** Deer Hunting đăng ký miễn phí và được đưa tới Retsam Forest; Horseback Archery và Obstacle Course đều cần ngựa đăng ký và 20 Rupee.
+- **A:** Deer Hunting đăng ký miễn phí và được đưa tới Retsam Forest; Horseback Archery Drill và Horseback Obstacle Course đều cần ngựa đăng ký và 20 Rupee.
 - **B:** Archery dùng số bia trúng; Obstacle dưới 2:00 cho Swift Carrot, dưới 1:30 cho Extravagant Bridle, dưới 1:15 cho Extravagant Saddle.
 - **C:** Forest Dweller's Sword, Bow và Shield phải không bị tháo hoặc làm vỡ trước đích.
 - **D:** 21 hit đã có bridle thì nhận 10 Bomb Arrow; 1:10 nhanh hơn 1:15 nên nhận Extravagant Saddle.
@@ -332,19 +332,19 @@ Nếu bắn trúng 21 bia nhưng đã có Knight's Bridle, nhận gì; nếu Obs
 - [ ] Deer Hunting — Đăng ký miễn phí tại Hateno Pasture / Dantz; vòng chơi ở Retsam Forest; Lượt săn này miễn phí, và tôi sẽ đưa anh từ Hateno Pasture tới Retsam Forest cho vòng chơi.
 - [ ] Deer Hunting — Anh có một phút để săn tối đa mười Mountain Buck trước khi tôi gọi anh về.
 - [ ] Deer Hunting — Không hạ con nào thì không thưởng; một đến ba cho Green, bốn đến sáu cho Blue, bảy đến chín cho Red, và đủ mười cho Purple; mọi lượt thử lại đều miễn phí.
-- [ ] Horseback Archery — Mounted Archery Camp / Jini; Trả 20 Rupee và mang ngựa đã đăng ký tới điểm đầu Mounted Archery Camp.
-- [ ] Horseback Archery — Cưỡi theo tuyến cố định và bắn trúng nhiều target nhất có thể trước khi lượt kết thúc.
-- [ ] Horseback Archery — Từ 0–11 lượt trúng không có thưởng; 12–19 cho 15 Arrow, 20–22 cho Knight's Bridle hoặc 10 Bomb Arrow nếu đã có, và 23–25 cho Knight's Saddle hoặc 20 Bomb Arrow nếu đã có; lượt lại tốn 20.
-- [ ] Obstacle Course — Highland Stable / Blynne; Trả 20 Rupee và vào lượt bằng ngựa đã đăng ký tại Highland Stable.
-- [ ] Obstacle Course — Nhảy đủ mười chướng ngại đánh dấu theo thứ tự, ở trên ngựa đã đăng ký rồi mới qua đích.
-- [ ] Obstacle Course — Từ hai phút không có thưởng; dưới hai phút cho Swift Carrot, dưới một phút ba mươi cho Extravagant Bridle, và dưới một phút mười lăm cho Extravagant Saddle; lượt khác tốn 20.
-- [ ] Test of Wood — Lost Woods / Damia, sau Shrine Quest đầu; Sau khi Shrine Quest đầu đã tới Maag Halan, một lượt lại tính giờ tốn 20 Rupee và cấp ba món Forest Dweller.
-- [ ] Test of Wood — Tới điểm cuối Shrine đã có trong dưới năm phút mà không tháo hoặc làm vỡ Sword, Bow hay Shield.
-- [ ] Test of Wood — Lượt lại dưới năm phút đầu tiên thưởng Silver Rupee; các lượt sau phải phá kỷ lục hiện tại để nhận thưởng đó, và mỗi lượt mới tốn 20.
+- [ ] Horseback Archery Drill — Mounted Archery Camp / Jini; Trả 20 Rupee và mang ngựa đã đăng ký tới điểm đầu Mounted Archery Camp.
+- [ ] Horseback Archery Drill — Cưỡi theo tuyến cố định và bắn trúng nhiều target nhất có thể trước khi lượt kết thúc.
+- [ ] Horseback Archery Drill — Từ 0–11 lượt trúng không có thưởng; 12–19 cho 15 Arrow, 20–22 cho Knight's Bridle hoặc 10 Bomb Arrow nếu đã có, và 23–25 cho Knight's Saddle hoặc 20 Bomb Arrow nếu đã có; lượt lại tốn 20.
+- [ ] Horseback Obstacle Course — Highland Stable / Blynne; Trả 20 Rupee và vào lượt bằng ngựa đã đăng ký tại Highland Stable.
+- [ ] Horseback Obstacle Course — Nhảy đủ mười chướng ngại đánh dấu theo thứ tự, ở trên ngựa đã đăng ký rồi mới qua đích.
+- [ ] Horseback Obstacle Course — Từ hai phút không có thưởng; dưới hai phút cho Swift Carrot, dưới một phút ba mươi cho Extravagant Bridle, và dưới một phút mười lăm cho Extravagant Saddle; lượt khác tốn 20.
+- [ ] The Test of Wood — Lost Woods / Damia, sau Shrine Quest đầu; Sau khi Shrine Quest đầu đã tới Maag Halan, một lượt lại tính giờ tốn 20 Rupee và cấp ba món Forest Dweller.
+- [ ] The Test of Wood — Tới điểm cuối Shrine đã có trong dưới năm phút mà không tháo hoặc làm vỡ Sword, Bow hay Shield.
+- [ ] The Test of Wood — Lượt lại dưới năm phút đầu tiên thưởng Silver Rupee; các lượt sau phải phá kỷ lục hiện tại để nhận thưởng đó, và mỗi lượt mới tốn 20.
 - [ ] Tôi nhớ Dantz đưa người chơi từ Hateno Pasture tới Retsam Forest.
 - [ ] Tôi quy đổi đúng 21 hits khi Knight's Bridle đã có.
 - [ ] Tôi nhận ra 1:10 đạt mốc Extravagant Saddle.
-- [ ] Tôi giữ nguyên cả Sword, Bow và Shield trong Test of Wood.
+- [ ] Tôi giữ nguyên cả Sword, Bow và Shield trong The Test of Wood.
 
 ## Đi tiếp
 

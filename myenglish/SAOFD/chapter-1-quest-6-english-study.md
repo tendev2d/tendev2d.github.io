@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 1, Quest 6
+# SAO: Fractured Daydream — Chapter 1, Main Quest 6 (1-6)
 
 ## Eugeo and LLENN
 
-> **Lộ trình học:** [Main Quest 1.5 — LLENN](chapter-1-quest-5-english-study.md) → **Main Quest 1.6 — Eugeo and LLENN (đang học)** → [Main Quest 1.7 — Reinforcements](chapter-1-quest-7-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Main Quest 1.5 — LLENN](chapter-1-quest-5-english-study.md) → **Main Quest 1.6 — Eugeo and LLENN (đang học)** → [Main Quest 1.7 — Reinforcements](chapter-1-quest-7-english-study.md)
 
 - Video học/hard-sub chính: [Anime Gaming Zero — Main Quest 1.6](https://www.youtube.com/watch?v=m6CEFTudmfY)
 - Đối chiếu quest độc lập: [SAMURAI GAMERS — Main Quest 1.6 Walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-1-6-walkthrough/)

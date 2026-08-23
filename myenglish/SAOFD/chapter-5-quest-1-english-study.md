@@ -1,8 +1,8 @@
-# SAO: Fractured Daydream — Chapter 5, Quest 1
+# SAO: Fractured Daydream — Chapter 5, Main Quest 1 (5-1)
 
 ## Enemies on the Prairie
 
-> **Lộ trình học:** [Chapter 4, Side Quest 6 — Alice’s Tea Party 3](chapter-4-side-quest-6-english-study.md) → **Chapter 5, Quest 1 — Enemies on the Prairie (đang học)** → [Side Quest 6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Chapter 4, Side Quest 6 — Alice’s Tea Party 3](chapter-4-side-quest-6-english-study.md) → **Chapter 5, Quest 1 — Enemies on the Prairie (đang học)** → [Side Quest 6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md)
 
 - **Video hard-sub chính:** [Anime Gaming Zero — Chapter 5 Quest 1](https://www.youtube.com/watch?v=tTV3gV71vic)
 - **Nguồn guide/order độc lập:** [Samurai Gamers — Main Quest 5-1 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-5-1-walkthrough/)
@@ -623,6 +623,10 @@ A → B → C → D → E.
 
 ## Học tiếp sau Chapter 5, Quest 1
 
-- → [Side Quest 6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md)
+> [!NOTE]
+> `5-S6` là **nhánh Side Quest tùy chọn vừa mở ở mốc này**, không phải Main Quest 2. Danh mục chính của app vẫn đi đúng Quest Select: `5-1 → 5-2 → … → 5-10`, rồi mới liệt kê `5-S1 → … → 5-S7`.
+
+- Main Quest kế tiếp trong Quest Select: [5-2 — Fuuka's Pursuer](chapter-5-quest-2-english-study.md)
+- Nhánh tùy chọn vừa mở: [5-S6 — Alice's Tea Party 4](chapter-5-side-quest-6-english-study.md)
 - Ôn cầu nối: [Chapter 4, Side Quest 6 — Alice’s Tea Party 3](chapter-4-side-quest-6-english-study.md)
 - Chỉ đánh dấu “Đã học” khi checklist trên hoàn tất; mục lục vẫn có thể lưu riêng các phần đã xem.

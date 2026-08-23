@@ -2,7 +2,7 @@
 
 ## A Hidden Player?
 
-> Lộ trình: [2-S1 — A Makeshift Alliance](chapter-2-side-quest-1-english-study.md) → **2-3 (đang học)** → [2-S2 — Battlefield Songstress](chapter-2-side-quest-2-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [2-S1 — A Makeshift Alliance](chapter-2-side-quest-1-english-study.md) → **2-3 (đang học)** → [2-S2 — Battlefield Songstress](chapter-2-side-quest-2-english-study.md)
 
 - Video học: [Anime Gaming Zero — Part 13, Chapter 2 Quest 3](https://www.youtube.com/watch?v=XOollvd83Q4)
 - Đối chiếu objective/thứ tự: [SAMURAI GAMERS — Main Quest 2-3 walkthrough](https://samurai-gamers.com/sao-fractured-daydream/saofd-main-quest-2-3-walkthrough/)

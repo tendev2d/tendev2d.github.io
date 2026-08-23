@@ -1,10 +1,10 @@
-# SAO: Fractured Daydream — Chapter 4, Side Quest 3
+# SAO: Fractured Daydream — Chapter 4, Side Quest 3 (4-S3)
 
-> **Lộ trình học:** [Administrator and Uniforms](chapter-4-side-quest-1-english-study.md) → **Dreams of Someday (đang học)** → [Alice's Tea Party 1](chapter-4-side-quest-4-english-study.md)
+> **Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn):** [Administrator and Uniforms](chapter-4-side-quest-1-english-study.md) → **Dreams of Someday (đang học)** → [Alice's Tea Party 1](chapter-4-side-quest-4-english-study.md)
 
 ## Dreams of Someday
 
-> Lộ trình: [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → **4-S3 (đang học)** → [4-S4](chapter-4-side-quest-4-english-study.md)
+> Thứ tự học đề xuất theo mốc mở khóa (Side Quest là nhánh tùy chọn): [Main Quest 4.3](chapter-4-quest-3-english-study.md) → [4-S1](chapter-4-side-quest-1-english-study.md) → **4-S3 (đang học)** → [4-S4](chapter-4-side-quest-4-english-study.md)
 
 - Video học: [Anime Gaming Zero — Chapter 4 Side Quest 3](https://www.youtube.com/watch?v=Ym7wcBrBXto)
 - Walkthrough: [SAMURAI GAMERS — Side Quest 4-3](https://samurai-gamers.com/sao-fractured-daydream/saofd-side-quest-4-3-walkthrough/)
