@@ -513,33 +513,6 @@
     .wiki-exact-index li span { color: var(--game-accent); font-size: .6rem; font-weight: 900; text-transform: uppercase; }
     .wiki-exact-index li strong { font-size: .72rem; line-height: 1.3; overflow-wrap: anywhere; }
     .wiki-exact-index li small { color: var(--muted); font-size: .62rem; line-height: 1.3; }
-    .completed-archive {
-      margin-top: 18px;
-      overflow: clip;
-      border: 1px solid color-mix(in srgb, var(--mint) 38%, var(--line));
-      border-radius: 16px;
-      background: color-mix(in srgb, var(--mint-soft) 30%, var(--surface-raised));
-      box-shadow: 0 10px 28px var(--shadow);
-    }
-    .completed-archive > summary {
-      min-height: 60px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 14px 18px;
-      cursor: pointer;
-      list-style: none;
-    }
-    .completed-archive > summary::-webkit-details-marker { display: none; }
-    .completed-archive > summary::after { content: "+"; margin-left: 2px; color: var(--mint); font-size: 1.15rem; }
-    .completed-archive[open] > summary::after { content: "−"; }
-    .completed-archive-title { min-width: 0; display: inline-flex; align-items: center; gap: 9px; color: var(--text-strong); font-weight: 850; }
-    .completed-archive-check { width: 28px; height: 28px; display: inline-grid; place-items: center; flex: 0 0 auto; border-radius: 9px; background: var(--mint-soft); color: var(--mint); }
-    .completed-archive > summary small { margin-left: auto; color: var(--mint); font-size: .76rem; font-weight: 750; white-space: nowrap; }
-    .completed-archive-body { border-top: 1px solid color-mix(in srgb, var(--mint) 24%, var(--line)); }
-    .completed-archive-note { margin: 0; padding: 12px 18px; border-bottom: 1px solid var(--rule); color: var(--muted); font-size: .78rem; }
-    .completed-archive-item .lesson-link { background: color-mix(in srgb, var(--mint-soft) 18%, transparent); }
-    .completed-archive-item .lesson-link:hover { background: color-mix(in srgb, var(--mint-soft) 48%, var(--surface-soft)); }
     .all-complete-state { display: grid; justify-items: center; gap: 8px; margin: 4px 0 18px; padding: 30px 20px; border: 1px solid color-mix(in srgb, var(--mint) 38%, var(--line)); border-radius: 18px; background: linear-gradient(145deg, var(--mint-soft), var(--surface-raised) 72%); text-align: center; }
     .all-complete-state-mark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 15px; background: color-mix(in srgb, var(--mint) 18%, var(--surface-raised)); color: var(--mint); font-size: 1.25rem; font-weight: 900; }
     .all-complete-state h2 { margin: 2px 0 0; color: var(--text-strong); font-size: 1.25rem; }
@@ -2219,10 +2192,6 @@
         return lessonIds.filter(function (id) { return state.completed[id]; }).length;
       }
 
-      function completedLessonIds(game) {
-        return game.lessonIds.filter(function (lessonId) { return Boolean(state.completed[lessonId]); });
-      }
-
       function firstIncompleteLesson(gameId) {
         var game = gamesById[gameId];
         if (!game) return null;
@@ -3301,15 +3270,11 @@
         return LESSON_TRACK_ORDER.filter(function (track) { return available.has(track); });
       }
 
-      function sectionForLesson(game, lessonId) {
-        return game.sections.find(function (section) { return section.lessonIds.includes(lessonId); }) || null;
-      }
-
-      function renderLessonItem(game, section, lessonId, lessonIndex, lastLessonId, archived) {
+      function renderLessonItem(game, section, lessonId, lessonIndex, lastLessonId) {
         var lesson = DATA.lessons[lessonId];
-        var complete = Boolean(archived || state.completed[lessonId]);
+        var complete = Boolean(state.completed[lessonId]);
         var studyStep = String(lessonIndex + 1).padStart(2, '0');
-        var marker = complete ? '✓' : (lesson.gameCode || studyStep);
+        var marker = lesson.gameCode || (complete ? '✓' : studyStep);
         var current = !complete && lessonId === lastLessonId;
         var trackLabel = lessonTrackLabel(game.id, lesson.track);
         var sectionTitle = section?.title || lesson.sectionTitle;
@@ -3319,28 +3284,19 @@
           : complete ? sectionTitle + ' · ' + trackLabel : current ? "Bài tiếp tục" : "Bước học " + studyStep;
         var searchText = normalizeTableLabel([lesson.title, lesson.gameCode, gamePosition, sectionTitle, lesson.kind, trackLabel].join(" "));
         var ariaPosition = gamePosition ? ' — ' + gamePosition : ' — Bước học ' + studyStep;
-        return '<li class="lesson-item' + (archived ? ' completed-archive-item' : '') + '" data-lesson-id="' + escapeHtml(lessonId) + '" data-order="' + lessonIndex + '" data-track="' + escapeHtml(lesson.track) + '" data-search="' + escapeHtml(searchText) + '" data-archived="' + String(Boolean(archived)) + '"><a class="lesson-link' + (complete ? ' is-complete' : '') + (current ? ' is-current' : '') + '" href="' + lessonHref(lessonId) + '"' + (current ? ' aria-current="true"' : '') + ' aria-label="' + escapeHtml(lesson.title + ' — ' + trackLabel + ariaPosition) + (complete ? ' — Đã học' : '') + (current ? ' — Bài tiếp tục' : '') + '"><span class="lesson-mark' + (lesson.gameCode ? ' is-game-code' : '') + '" aria-hidden="true">' + marker + '</span><span class="lesson-copy"><span class="lesson-title-row"><span class="lesson-title">' + escapeHtml(lesson.title) + '</span><span class="lesson-track-badge" data-track="' + escapeHtml(lesson.track) + '">' + escapeHtml(lessonTrackBadge(game.id, lesson.track)) + '</span></span>' + (lessonState ? '<small class="lesson-state">' + escapeHtml(lessonState) + '</small>' : '') + '</span></a></li>';
+        return '<li class="lesson-item" data-lesson-id="' + escapeHtml(lessonId) + '" data-order="' + lessonIndex + '" data-track="' + escapeHtml(lesson.track) + '" data-search="' + escapeHtml(searchText) + '"><a class="lesson-link' + (complete ? ' is-complete' : '') + (current ? ' is-current' : '') + '" href="' + lessonHref(lessonId) + '"' + (current ? ' aria-current="true"' : '') + ' aria-label="' + escapeHtml(lesson.title + ' — ' + trackLabel + ariaPosition) + (complete ? ' — Đã học' : '') + (current ? ' — Bài tiếp tục' : '') + '"><span class="lesson-mark' + (lesson.gameCode ? ' is-game-code' : '') + '" aria-hidden="true">' + marker + '</span><span class="lesson-copy"><span class="lesson-title-row"><span class="lesson-title">' + escapeHtml(lesson.title) + '</span><span class="lesson-track-badge" data-track="' + escapeHtml(lesson.track) + '">' + escapeHtml(lessonTrackBadge(game.id, lesson.track)) + '</span></span>' + (lessonState ? '<small class="lesson-state">' + escapeHtml(lessonState) + '</small>' : '') + '</span></a></li>';
       }
 
       function renderLessonGroups(game, section, lastLessonId) {
-        var incompleteIds = section.lessonIds.filter(function (lessonId) { return !state.completed[lessonId]; });
         var groups = LESSON_TRACK_ORDER.map(function (track) {
-          var lessonIds = incompleteIds.filter(function (lessonId) { return DATA.lessons[lessonId]?.track === track; });
+          var lessonIds = section.lessonIds.filter(function (lessonId) { return DATA.lessons[lessonId]?.track === track; });
           if (!lessonIds.length) return '';
           var headingId = 'track-' + section.id + '-' + track;
-          return '<section class="lesson-group" data-track="' + escapeHtml(track) + '" aria-labelledby="' + escapeHtml(headingId) + '"><div class="lesson-group-head"><h3 id="' + escapeHtml(headingId) + '">' + escapeHtml(lessonTrackLabel(game.id, track)) + '</h3><small>' + lessonIds.length + ' bài còn lại</small></div><ol class="lesson-list">' + lessonIds.map(function (lessonId) {
-            return renderLessonItem(game, section, lessonId, game.lessonIds.indexOf(lessonId), lastLessonId, false);
+          return '<section class="lesson-group" data-track="' + escapeHtml(track) + '" aria-labelledby="' + escapeHtml(headingId) + '"><div class="lesson-group-head"><h3 id="' + escapeHtml(headingId) + '">' + escapeHtml(lessonTrackLabel(game.id, track)) + '</h3><small>' + lessonIds.length + ' bài</small></div><ol class="lesson-list">' + lessonIds.map(function (lessonId) {
+            return renderLessonItem(game, section, lessonId, game.lessonIds.indexOf(lessonId), lastLessonId);
           }).join("") + '</ol></section>';
         }).join("");
-        return '<div class="section-lessons"><div class="lesson-groups">' + groups + '</div><div class="lesson-order-view" hidden><div class="lesson-group-head"><h3>Thứ tự học</h3><small>' + incompleteIds.length + ' bài còn lại</small></div><ol class="lesson-list lesson-list-ordered"></ol></div></div>';
-      }
-
-      function renderCompletedArchive(game) {
-        var lessonIds = completedLessonIds(game);
-        if (!lessonIds.length) return '';
-        return '<details class="completed-archive" id="completed-archive"><summary><span class="completed-archive-title"><span class="completed-archive-check" aria-hidden="true">✓</span><span>Đã học</span></span><small>' + lessonIds.length + ' bài</small></summary><div class="completed-archive-body"><p class="completed-archive-note">Các bài đã hoàn thành được cất gọn ở đây. Mở lại bất cứ lúc nào để ôn tập hoặc bỏ dấu đã học.</p><ol class="lesson-list completed-archive-list">' + lessonIds.map(function (lessonId) {
-          return renderLessonItem(game, sectionForLesson(game, lessonId), lessonId, game.lessonIds.indexOf(lessonId), "", true);
-        }).join("") + '</ol></div></details>';
+        return '<div class="section-lessons"><div class="lesson-groups">' + groups + '</div><div class="lesson-order-view" hidden><div class="lesson-group-head"><h3>Thứ tự học</h3><small>' + section.lessonIds.length + ' bài</small></div><ol class="lesson-list lesson-list-ordered"></ol></div></div>';
       }
 
       function wikiTopicIdsForLesson(lesson) {
@@ -3440,11 +3396,6 @@
         var gamePercent = progressPercent(gameCompleted, game.lessonCount);
         var incompleteCount = game.lessonCount - gameCompleted;
         var hasHistory = Boolean(state.lastByGame[game.id]);
-        var activeSections = game.sections.filter(function (section) {
-          return section.lessonIds.some(function (lessonId) {
-            return !state.completed[lessonId];
-          });
-        });
         return '<section aria-labelledby="game-title">' +
           '<header class="view-header"><div class="view-header-row"><div><p class="eyebrow">Thư viện</p><h1 id="game-title">' + escapeHtml(game.id) + '</h1><p>' + game.lessonCount + ' bài học theo hành trình chơi</p></div>' +
           (lastLesson ? '<a class="continue-card" href="' + lessonHref(lastLesson.id) + '"><small>' + (hasHistory ? 'Tiếp tục · ' + Math.round(lastSession.progress || 0) + '%' : 'Bắt đầu học') + '</small><strong>' + escapeHtml(lastLesson.title) + '</strong><span>' + escapeHtml(lastSession.headingLabel || (hasHistory ? "Bài chưa hoàn thành tiếp theo" : "Bài đầu tiên trong hành trình")) + '</span></a>' : '') + '</div>' +
@@ -3456,15 +3407,15 @@
             }).length;
             return '<option value="' + escapeHtml(track) + '"' + (selectedTrack === track ? ' selected' : '') + '>' + escapeHtml(lessonTrackLabel(game.id, track)) + ' · ' + count + '</option>';
           }).join("") + '</select></label></div></header>' +
-          (incompleteCount === 0 ? '<section class="all-complete-state" aria-labelledby="all-complete-title"><span class="all-complete-state-mark" aria-hidden="true">✓</span><h2 id="all-complete-title">Đã hoàn thành toàn bộ ' + escapeHtml(game.id) + '</h2><p>Không còn bài bắt buộc phải học lại. Khi muốn ôn, hãy mở kho Đã học bên dưới.</p></section>' : '') +
-          '<div class="section-list">' + activeSections.map(function (section, sectionIndex) {
+          (incompleteCount === 0 ? '<section class="all-complete-state" aria-labelledby="all-complete-title"><span class="all-complete-state-mark" aria-hidden="true">✓</span><h2 id="all-complete-title">Đã hoàn thành toàn bộ ' + escapeHtml(game.id) + '</h2><p>Mọi bài vẫn nằm nguyên trong danh sách bên dưới; mở lại bất cứ lúc nào để ôn hoặc bỏ dấu đã học.</p></section>' : '') +
+          '<div class="section-list">' + game.sections.map(function (section, sectionIndex) {
             var hasSavedSections = gameSession.sectionsSet;
             var open = (section.lessonIds.includes(lastLessonId) || (hasSavedSections ? gameSession.sections.includes(section.id) : sectionIndex === 0)) ? " open" : "";
             var completed = completionCount(section.lessonIds);
             var percent = progressPercent(completed, section.lessonIds.length);
             var active = section.lessonIds.includes(lastLessonId) ? ' is-active' : '';
             return '<details class="section' + active + '" data-section-id="' + escapeHtml(section.id) + '"' + open + '><summary><span>' + escapeHtml(section.title) + '</span><span class="section-summary-meta"><span class="section-progress" role="progressbar" aria-label="Tiến độ ' + escapeHtml(section.title) + '" aria-valuemin="0" aria-valuemax="' + section.lessonIds.length + '" aria-valuenow="' + completed + '"><span class="progress-track"><span class="progress-fill" style="--progress:' + percent + '%"></span></span></span><small>' + completed + '/' + section.lessonIds.length + '</small></span></summary>' + renderLessonGroups(game, section, lastLessonId) + '</details>';
-          }).join("") + '</div>' + renderCompletedArchive(game) + '</section>';
+          }).join("") + '</div></section>';
       }
 
       function renderLesson(lesson, game) {
@@ -3632,20 +3583,6 @@
             if (filterActive && matches) section.open = true;
             visibleCount += matches;
           });
-          var archive = document.getElementById("completed-archive");
-          if (archive) {
-            var archiveMatches = 0;
-            archive.querySelectorAll(".completed-archive-item").forEach(function (item) {
-              var matchesQuery = !query || (item.dataset.search || "").includes(query);
-              var matchesTrack = !selectedTrack || item.dataset.track === selectedTrack;
-              var match = matchesQuery && matchesTrack;
-              item.hidden = !match;
-              if (match) archiveMatches += 1;
-            });
-            archive.hidden = filterActive && archiveMatches === 0;
-            archive.open = filterActive && archiveMatches > 0;
-            visibleCount += archiveMatches;
-          }
           applyingQuery = false;
           status.textContent = filterActive
             ? visibleCount + '/' + game.lessonCount + ' bài phù hợp'
